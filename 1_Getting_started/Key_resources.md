@@ -8,11 +8,11 @@ See also [R-ladies](https://rladies.org/) - the name needs work, but it's a supe
 
 R can be run in RStudio, an integrated development environment. So basically, instead of typing straight into the terminal like this:
 
-![Terminal](../assets/images/Terminal_example.png)
+![Terminal](../assets/images/Terminal_example.png "A screenshot of the terminal, with R open")
 
 You get a nice friendly set up like this:
 
-![Rstudio](../assets/images/RStudio_example.png)
+![Rstudio](../assets/images/RStudio_example.png "A screenshot of Rstudio")
 
 You can also record all of your analyses in [Rmarkdown](https://rmarkdown.rstudio.com/lesson-1.html) files - a lot like this file you're reading right now, which is a markdown file. DO THIS. If you don't keep a well annotated record of your work either:
 
