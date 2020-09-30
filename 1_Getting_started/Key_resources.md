@@ -14,6 +14,14 @@ You get a nice friendly set up like this:
 
 ![Rstudio](../assets/images/RStudio_example.png)
 
+You can also record all of your analyses in [Rmarkdown](https://rmarkdown.rstudio.com/lesson-1.html) files - a lot like this file you're reading right now, which is a markdown file. DO THIS. If you don't keep a well annotated record of your work either:
+
+1. You will forget what you've done, and have a rubbish time trying to write up.
+2. You will forget where you got your data, and have a rubbish time trying to write up.
+3. In 6 - 18 months your supervisor will contact you and ask a random question about the analysis that is key to the work being published and you'll lose a week rerunning the analysis because you have no idea what you did and you will hate them, yourself, and science as a whole.
+
+So what I'm saying is record everything properly in Rmarkdown documents, and your future self will love you.
+
 ## [Introduction to R](https://bioinformatics-core-shared-training.github.io/r-intro/index.html)
 
 Ongoing (as of 2020) WFH course run by the Bioinformatics Core at CRUK Cambridge Institute. Looks like a good, relevant introduction to R, RStudio, data manipulation and plots. You can’t access their video chat but all materials and solutions are available.
