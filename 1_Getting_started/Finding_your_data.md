@@ -40,7 +40,7 @@ You need to think about all these things and more. Sit down and think about your
 ### GEO (Gene Expression Omnibus)
 
 * GEO lets you construct a very specific query for microarray data, with inclusion and exclusion criteria. Lovely stuff.
-* [Tutorial here](https://www.ncbi.nlm.nih.gov/geo/info/qqtutorial.html).
+* [Link to a tutorial](https://www.ncbi.nlm.nih.gov/geo/info/qqtutorial.html).
 
 ### TCGA (The Cancer Genome Atlas)
 

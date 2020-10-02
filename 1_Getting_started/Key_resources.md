@@ -2,17 +2,19 @@
 
 R is a really popular language, particularly for working with data in biology, so there are loads of packages and tutorials out there.
 
-It's also generally more popular with women and other marginalised genders due to the strong, diverse community. Python is lagging behind a bit here... [twitter thread](https://twitter.com/krose621/status/1309162076611411968?s=20) if you want an intro the the rabbit hole of drama.
-
-See also [R-ladies](https://rladies.org/) - the name needs work, but it's a super friendly community for anyone who isn't a cis man, whether you're looking for troubleshooting, a job or just some fun coding. :smile:
+It's also generally more popular with women and other marginalised genders due to the strong, diverse community. See [R-ladies](https://rladies.org/) - the name needs work, but it's a super friendly community for anyone who isn't a cis man, whether you're looking for troubleshooting, a job or just some fun coding. :smile:
 
 R can be run in RStudio, an integrated development environment. So basically, instead of typing straight into the terminal like this:
 
-![Terminal](../assets/images/Terminal_example.png "A screenshot of the terminal, with R open")
+<img src= "../assets/images/Terminal_example.png" alt= "A screenshot of the terminal, with R open" width="400"/>
 
 You get a nice friendly set up like this:
 
 ![Rstudio](../assets/images/RStudio_example.png "A screenshot of Rstudio")
+
+One of my fave things RStudio can do is rename in scope. This magic changes all occurrences of a given variable name at once, it is MAGIC and I love it.
+
+<img src= "../assets/images/rename_in_scope.gif" alt= "A gif showing how to rename in scope." width="400"/>
 
 You can also record all of your analyses in [Rmarkdown](https://rmarkdown.rstudio.com/lesson-1.html) files - a lot like this file you're reading right now, which is a markdown file. DO THIS. If you don't keep a well annotated record of your work either:
 
@@ -28,7 +30,11 @@ Ongoing (as of 2020) WFH course run by the Bioinformatics Core at CRUK Cambridge
 
 ## [Data Carpentry](https://datacarpentry.org/lessons/)
 
-A fantastic project aimed at teaching researchers fundamental data skills. Lots of resources! [Here](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html) would be a good place to start.
+A fantastic project aimed at teaching researchers fundamental data skills. Lots of resources! The [intro to R page](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html) would be a good place to start.
+
+## [Data Sci Guide Repo](https://github.com/Chris-Engelhardt/data_sci_guide/blob/c1028449ded8c1d097065e2029e566fdd07c046a/README.md)
+
+This Github repository has alllll of the resources.
 
 ## [Stackoverflow](https://stackoverflow.com/)
 
