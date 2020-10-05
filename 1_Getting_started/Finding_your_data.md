@@ -1,4 +1,4 @@
-# Finding your dataset
+# Finding your data
 
 Things to think about:
 
@@ -12,7 +12,7 @@ Things to think about:
 ## Raw or processed data?
 
 * Do you just need expression data (eg RPKM)? Then you can choose pre-processed data that someone else has quality filtered, aligned, normalised... etc.
-* Pre-processed doesn't mean you don't have prep work! Go read the paper, particularly the methods. Understand what has happened to the data, and any weirdness to expect. Did they use exactly the same protocol on the control/treated data? You won't be able to interpret your results effectively unless you really know your dataset.
+* Pre-processed doesn't mean you don't have prep work! Go read the paper, particularly the methods. Understand what has happened to the data, and any weirdness to expect. Did they use exactly the same protocol on the control/treated data? You won't be able to interpret your results effectively unless you really know your data.
 * Raw data - fastq files. These may need quality checks, adaptor and contaminant removal, alignment, etc. May be relatively straightforward - there are lots of friendly pipelines and tutorials, and you will have a better understanding of what has happened to the data.
 * But things can and will go wrong. (They will anyway, welcome to computational biology. If you haven't had a meltdown over a rogue bracket you're doing it wrong) Lots of choices (which software to use), more software to install, more queuing on the cluster. Think about how much time you have.
 
@@ -21,8 +21,8 @@ Things to think about:
 * Often this will be human - great! Lots of data available, well annotated genome and transcriptome - all of the good things. :dancers:
 * Another model species - also great! However, think about the genetic background of your species. For example, lab mice are WEIRD. Most mouse genomes are from lab mice that have had all sorts of inbreeding and oddness - are they going to give a true answer to your question? On the other hand, there are strains bred specifically for cancer research. :mouse:
 * A bit of a weird species - do your background. Go find out:
-    * Is there a genome annotation?
-    * Is it a good annotation? What's the N50? When was it last updated?
+  * Is there a genome annotation?
+  * Is it a good annotation? What's the N50? When was it last updated?
 
 ## Are you studying a disease, e.g. cancer?
 

@@ -20,7 +20,7 @@ This is key!
 
 How have you tried to solve it so far? Why do you think these things didn't work?
 
-When you googled your error code, did anything helpful show up? Were there any web pages that discuss the issue that you didn't quite understand? The key thing here is that demonstrators are not google - everyone whos has to look up error messages all of the time, show us that you've had a go.
+When you googled your error code, did anything helpful show up? Were there any web pages that discuss the issue that you didn't quite understand? The key thing here is that demonstrators are not google - everyone who codes has to look up error messages all of the time, show us that you've had a go.
 
 ## Include some data
 
