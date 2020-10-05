@@ -12,7 +12,7 @@ You get a nice friendly set up like this:
 
 ![Rstudio](../assets/images/RStudio_example.png "A screenshot of Rstudio")
 
-One of my fave things RStudio can do is rename in scope. This magic changes all occurrences of a given variable name at once, it is MAGIC and I love it.
+One of my fave things RStudio can do is rename in scope. This changes all occurrences of a given variable name at once, it is MAGIC and I love it.
 
 <img src= "../assets/images/rename_in_scope.gif" alt= "A gif showing how to rename in scope." width="400"/>
 
