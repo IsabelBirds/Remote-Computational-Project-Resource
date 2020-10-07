@@ -30,7 +30,7 @@ Things to think about:
 * What kind of sample do you want? Tumour only, surrounding tissue.
 * Treatment/no treatment/both?
 * Do you need cancer patients and normal control tissue?
-* How many variables are likely to impact your results? Age, tumour grade, sex, etc. Do the datasets you're looking at have this information?
+* How many variables are likely to impact your results? Age, tumour grade, sex, etc. Does the data you're looking at include this information?
 
 ## Availability
 

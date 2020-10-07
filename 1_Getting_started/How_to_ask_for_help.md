@@ -10,7 +10,7 @@ When you're midway through a project and it's all you're thinking about, it migh
 
 ## The code you're trying to run
 
-Send the document with your code in, and give us details! Did you write it all yourself? Is it based on someone else's code? Is it based on information from a manual for some software. This is really important - it could be as simple as you have a bracket in the wrong place, or misnamed variable - we've all been there, but we can't help you spot this if you don't share your code!
+Send the document with your code in, and give us details! Did you write it all yourself? Is it based on someone else's code? Is it based on information from a manual for some software? This is really important - it could be as simple as you have a bracket in the wrong place, or misnamed variable - we've all been there, but we can't help you spot this if you don't share your code!
 
 ## The error message you're getting
 
@@ -25,3 +25,7 @@ When you googled your error code, did anything helpful show up? Were there any w
 ## Include some data
 
 This will depend on the question, but it can also be helpful to include the data you're working on, a link to the data, or a smaller example data set.
+
+## The version of the software you're using
+
+This isn't always applicable - generally we don't want to know the version of every package you're using in R. However, if you're struggling to use a certain program or package, tell us what version you're using (e.g. Bowtie2 v2.4.2). Sometimes the commands you need to use will vary between versions, or a given version may have a known issue, so this information can be really useful for troubleshooting.
