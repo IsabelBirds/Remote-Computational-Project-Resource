@@ -1,5 +1,5 @@
 # Undergrad_Project_Resource
-Collection of resources for delivering remote reserarch projects.
+Collection of resources for delivering remote research projects.
 
 Started during COVID-19, masters project quickly transfered to remote.
 
