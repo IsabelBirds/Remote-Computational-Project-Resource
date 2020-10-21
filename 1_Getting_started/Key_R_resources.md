@@ -32,9 +32,17 @@ Ongoing (as of 2020) WFH course run by the Bioinformatics Core at CRUK Cambridge
 
 A fantastic project aimed at teaching researchers fundamental data skills. Lots of resources! The [intro to R page](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html) would be a good place to start.
 
-## [Data Sci Guide Repo](https://github.com/Chris-Engelhardt/data_sci_guide/blob/c1028449ded8c1d097065e2029e566fdd07c046a/README.md)
+## [Hands-On programming with R](https://rstudio-education.github.io/hopr/)
 
-This Github repository has alllll of the resources.
+Website for the book Hands-On programming with R.
+
+## [R for Data Science](https://r4ds.had.co.nz/)
+
+Website for the book R for Data Science.
+
+## [Computational Genomics with R](https://compgenomr.github.io/book/)
+
+Website for the book Computational Genomics with R.
 
 ## [Stackoverflow](https://stackoverflow.com/)
 
