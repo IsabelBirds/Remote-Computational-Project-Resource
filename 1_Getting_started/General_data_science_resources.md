@@ -4,7 +4,7 @@ More great online resources that aren't R specific.
 
 ## [Data Sci Guide](https://github.com/Chris-Engelhardt/data_sci_guide/blob/master/README.md)
 
-* A fantastic community sourced repo, inclyding resources for R, python, SQL, git, shell and spreadsheets.
+* A fantastic community sourced repo, including resources for R, python, SQL, git, shell and spreadsheets.
 
 ## [An Introductory Undergraduate course in Bioinformatics](https://rsh249.github.io/bioinformatics/)
 
