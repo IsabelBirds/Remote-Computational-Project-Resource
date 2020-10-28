@@ -1,6 +1,6 @@
 # How to ask for help effectively
 
-A common issue for people new to coding is that they don't know how to ask for help effectively. This leads to a long confusing chain of email which is frustrating for all involved - the demonstrator doesn't know what the problem actually is, and the student is stuck waiting with their problem unsolved.
+A common issue for people new to coding is that they don't know how to ask for help effectively. This leads to a long confusing chain of emails which is frustrating for all involved - the demonstrator doesn't know what the problem actually is, and the student is stuck waiting with their problem unsolved.
 
 So when you email to ask fo help, make sure you tell us:
 
