@@ -17,7 +17,7 @@ This will contain:
 ### 1 Getting started
 
 [Key resources for getting started using R.](1_Getting_started/Key_R_resources.md)  
-[How to ask for help computational help effectively](1_Getting_started/How_to_ask_for_help.md)  
+[How to ask for computational help effectively](1_Getting_started/How_to_ask_for_help.md)  
 [Things to think about when choosing data.](1_Getting_started/Finding_your_data.md)  
 [General data science resources](1_Getting_started/General_data_science_resources.md) - wider resources working in other programming languages, or more advanced R.  
 
