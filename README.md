@@ -29,3 +29,7 @@ This will contain:
 ### 3 Tutorials
 
 [Online tutorials for carrying out various analyses in R.](3_Tutorials/Online_tutorials.md)  
+
+### 4 Data viz
+
+To do - add resources to help with good data vis - ggplot2 etc
