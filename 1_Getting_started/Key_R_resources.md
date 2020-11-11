@@ -28,6 +28,10 @@ So what I'm saying is record everything properly in Rmarkdown documents, and you
 
 Ongoing (as of 2020) WFH course run by the Bioinformatics Core at CRUK Cambridge Institute. Looks like a good, relevant introduction to R, RStudio, data manipulation and plots. You can’t access their video chat but all materials and solutions are available.
 
+## [R Cheatsheets](https://rstudio.com/resources/cheatsheets/)
+
+Not every package has a cheatsheet, but key packages like dpylr and ggplot2 do, as well as some more niche packages. Super useful!
+
 ## [Data Carpentry](https://datacarpentry.org/lessons/)
 
 A fantastic project aimed at teaching researchers fundamental data skills. Lots of resources! The [intro to R page](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html) would be a good place to start.
