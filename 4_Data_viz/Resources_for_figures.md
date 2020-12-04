@@ -29,7 +29,7 @@ If you want to make a graph in R, The R Graph Gallery is the place to start. It 
 
 ## [Eulerr](https://github.com/jolars/eulerr)
 
-A personal pet hate - venn diagrams that aren't proportional! Euler fixes this bu making area-proportional diagrams, or if that is impossible, a good approximation with included goodness-of-fit stats!
+A personal pet hate - venn diagrams that aren't proportional! Euler fixes this by making area-proportional diagrams, or if that is impossible, a good approximation with included goodness-of-fit stats!
 (Euler diagrams are very similar to venns, they just don't require every set to interact.)
 
 ## [Heatmaps](http://www.opiniomics.org/you-probably-dont-understand-heatmaps/)
