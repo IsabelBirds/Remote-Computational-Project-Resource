@@ -13,7 +13,7 @@ Papers and resources which cover wider concepts.
 ## [Biostatistics Primer: What a Clinician Ought to Know: Hazard Ratios](https://www.sciencedirect.com/science/article/pii/S155608641532030X#fig3)
 
 * Guidelines on survival analysis, hazard ratios, etc.
-* Information on limitations and assumptions of hazard ratios. 
+* Information on limitations and assumptions of hazard ratios.
 * Violation of proportional hazards assumption.
 
 ## [Biostatistics Primer: What a Clinician Ought to Know: Subgroup Analyses](https://www.sciencedirect.com/science/article/pii/S1556086415321523)
