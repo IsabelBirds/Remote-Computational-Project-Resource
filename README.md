@@ -32,4 +32,4 @@ This will contain:
 
 ### 4 Data viz
 
-To do - add resources to help with good data vis - ggplot2 etc
+[A collection of resources for making figures.](4_Data_viz/Resources_for_figures.md)
