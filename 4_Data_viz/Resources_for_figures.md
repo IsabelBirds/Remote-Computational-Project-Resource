@@ -21,7 +21,7 @@ My favourite colour palette. Pretty and colour-blind friendly!
 
 ## [ggsci](https://cran.r-project.org/web/packages/ggsci/vignettes/ggsci.html)
 
-ggsci has some colours palettes based on various journals if you're feeling fancy, or some based on things like star trek if you're more like me...
+ggsci has some colour palettes based on various journals if you're feeling fancy, or some based on things like star trek if you're more like me...
 
 ## [The R Graph Gallery](https://www.r-graph-gallery.com/)
 
