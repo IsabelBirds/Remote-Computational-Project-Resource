@@ -1,4 +1,4 @@
-# Undergrad Project Resource
+# Remote Computational Project Resource
 
 Collection of resources for delivering remote research projects.
 
