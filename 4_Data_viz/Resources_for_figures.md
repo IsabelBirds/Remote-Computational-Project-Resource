@@ -27,6 +27,10 @@ ggsci has some colour palettes based on various journals if you're feeling fancy
 
 If you want to make a graph in R, The R Graph Gallery is the place to start. It has lots of different ideas for plots, and simple to complex tutorials.
 
+## [A ggplot2 tutorial for beautiful plotting in R](https://cedricscherer.netlify.app/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/#toc)
+
+Lots of information and resources to help you make pretty plots.
+
 ## [Eulerr](https://github.com/jolars/eulerr)
 
 A personal pet hate - venn diagrams that aren't proportional! Euler fixes this by making area-proportional diagrams, or if that is impossible, a good approximation with included goodness-of-fit stats!
@@ -47,6 +51,18 @@ Another package I'm a fan of. This package runs statistical tests, and creates p
 ## [ggbeeswarm](https://github.com/eclarke/ggbeeswarm)
 
 Are the points in your violin scatter plots overlapping so you can't see all the data? Ta-da, ggbeeswarm fixed it!
+
+## [ggplot2 extensions](https://exts.ggplot2.tidyverse.org/gallery/)
+
+All the extensions I've mentioned above and more!
+
+## [ggplot2: elegant graphics for data analysis](https://ggplot2-book.org/)
+
+Website for the book - ggplot2: elegant graphics for data analysis. A guide to the Grammar of Graphics used by ggplot2 - for understanding theory.
+
+## [R Graphics Cookbook](http://www.cookbook-r.com/Graphs/)
+
+Website for the book - R Graphics Cookbook. The whole book isn't available online, but some useful information is on the site about making data graphics in R.
 
 ## [Fundamentals of Data Visualisation](https://clauswilke.com/dataviz/)
 
