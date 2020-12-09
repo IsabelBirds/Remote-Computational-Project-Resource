@@ -48,6 +48,10 @@ Website for the book R for Data Science.
 
 Website for the book Computational Genomics with R.
 
+## [r-statistics](http://r-statistics.co/)
+
+A great site aimed at people working on machine learninig and stats in R. Also has some great ggplot2 information.
+
 ## [Stackoverflow](https://stackoverflow.com/)
 
 If you can’t work out how to do something, lots of other people have definitely also had the same issue, so don’t spend ages trying to work it out from scratch. Google and stackoverflow – LOTS of programming community questions and answers - are your friends.
