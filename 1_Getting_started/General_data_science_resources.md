@@ -24,4 +24,4 @@ Website for the book Advanced R.
 
 ## [R, Open Research, and Reproducibility](https://r-openresearch-reproducibility.netlify.app/)
 
-Resources from masters courses by Andrew stewart at the Univesrity of Manchester on R, Open Research, and Reproducibility.
+Resources from masters courses by Andrew stewart at the University of Manchester on R, Open Research, and Reproducibility.
