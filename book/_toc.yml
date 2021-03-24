@@ -1,0 +1,41 @@
+# Each entry has the following schema:
+#
+# - title: mytitle   # Title of chapter or subchapter
+#   file: myfile  # filename relative to the  folder.
+#   sections:  # Contains a list of more entries that make up the chapter's subchapters
+#
+# ===== Main Landing Page ========================================
+
+- file: welcome
+
+# ===== Getting started ========================================
+- file: 1_Getting_started/Getting_started
+  sections:
+  - title: Key resources for getting started using R
+    file: 1_Getting_started/Key_R_resources.md
+  - title: How to ask for computational help effectively
+    file: 1_Getting_started/How_to_ask_for_help.md
+  - title: Things to think about when choosing data
+    file: 1_Getting_started/Finding_your_data.md
+  - title: General data science resources 
+    file: 1_Getting_started/General_data_science_resources.md
+
+# ===== Papers and definitions ========================================
+- file: 2_Papers_and_definitions/Papers_and_definitions
+  sections:
+  - title: Analysis specific papers 
+    file: 2_Papers_and_definitions/Analysis_specific_papers.md
+  - title: General concepts
+    file: 2_Papers_and_definitions/General_concepts.md
+
+# ===== Tutorials ========================================
+- file: 3_Tutorials/Tutorials
+  sections:
+  - title: Online tutorials
+    file: 3_Tutorials/Online_tutorials
+
+# ===== Data vis ========================================
+- file: 4_Data_viz/Data_viz
+  sections:
+  - title: Data Visualisation
+    file: 4_Data_viz/Resources_for_figures.md

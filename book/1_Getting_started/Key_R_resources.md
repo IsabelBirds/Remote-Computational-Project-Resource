@@ -6,15 +6,15 @@ It's also generally more popular with women and other marginalised genders due t
 
 R can be run in RStudio, an integrated development environment. So basically, instead of typing straight into the terminal like this:
 
-<img src= "../assets/images/Terminal_example.png" alt= "A screenshot of the terminal, with R open" width="400"/>
+ <!--- <img src= "../assets/images/Terminal_example.png" alt= "A screenshot of the terminal, with R open" width="400"/> --->
 
 You get a nice friendly set up like this:
 
-![Rstudio](../assets/images/RStudio_example.png "A screenshot of Rstudio")
+<!--- ![Rstudio](../assets/images/RStudio_example.png "A screenshot of Rstudio") --->
 
 One of my fave things RStudio can do is rename in scope. This changes all occurrences of a given variable name at once, it is MAGIC and I love it.
 
-<img src= "../assets/images/rename_in_scope.gif" alt= "A gif showing how to rename in scope." width="400"/>
+<!--- <img src= "../assets/images/rename_in_scope.gif" alt= "A gif showing how to rename in scope." width="400"/> --->
 
 You can also record all of your analyses in [Rmarkdown](https://rmarkdown.rstudio.com/lesson-1.html) files - a lot like this file you're reading right now, which is a markdown file. DO THIS. If you don't keep a well annotated record of your work either:
 
@@ -50,12 +50,12 @@ Website for the book Computational Genomics with R.
 
 ## [r-statistics](http://r-statistics.co/)
 
-A great site aimed at people working on machine learninig and stats in R. Also has some great ggplot2 information.
+A great site aimed at people working on machine learning and stats in R. Also has some great ggplot2 information.
 
 ## [Stackoverflow](https://stackoverflow.com/)
 
-If you can’t work out how to do something, lots of other people have definitely also had the same issue, so don’t spend ages trying to work it out from scratch. Google and stackoverflow – LOTS of programming community questions and answers - are your friends.
+If you can’t work out how to do something, lots of other people have definitely also had the same issue, so don’t spend ages trying to work it out from scratch. Google and Stackoverflow – LOTS of programming community questions and answers - are your friends.
 
 ## [Biostars](https://www.biostars.org/)
 
-As you move more into the biological aspects of your analysis, Biostars is the equivalent of Stackoverflow for your questions. How to get raw data, what a certain option in a program means – lots of community info here! Also feel free to ask your own questions, but do your own research first - people help each other for free, so don't take the mic!
+As you move more into the biological aspects of your analysis, Biostars is the equivalent of Stackoverflow for your questions. How to get raw data, what a certain option in a program means – lots of community info here! Also feel free to ask your own questions, but do your own research first - this is a community of people helping each other for free.
