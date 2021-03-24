@@ -6,15 +6,32 @@ It's also generally more popular with women and other marginalised genders due t
 
 R can be run in RStudio, an integrated development environment. So basically, instead of typing straight into the terminal like this:
 
- <!--- <img src= "../assets/images/Terminal_example.png" alt= "A screenshot of the terminal, with R open" width="400"/> --->
+```{figure} ../assets/images/Terminal_example.png
+---
+name: Terminal_example
+alt: A screenshot of the terminal, with R open
+width: 500px
+---
+```
 
 You get a nice friendly set up like this:
 
-<!--- ![Rstudio](../assets/images/RStudio_example.png "A screenshot of Rstudio") --->
+```{figure} ../assets/images/RStudio_example.png
+---
+name: R_studio
+alt: A screenshot of Rstudio
+---
+```
 
-One of my fave things RStudio can do is rename in scope. This changes all occurrences of a given variable name at once, it is MAGIC and I love it.
+One of my fave things RStudio can do is rename in scope. This is a neat little trick which changes all occurrences of a given variable name at once.
 
-<!--- <img src= "../assets/images/rename_in_scope.gif" alt= "A gif showing how to rename in scope." width="400"/> --->
+```{figure} ../assets/images/rename_in_scope.gif
+---
+name: Rename_in_scope
+alt:  A gif showing how to rename in scope
+width: 400px
+---
+```
 
 You can also record all of your analyses in [Rmarkdown](https://rmarkdown.rstudio.com/lesson-1.html) files - a lot like this file you're reading right now, which is a markdown file. DO THIS. If you don't keep a well annotated record of your work either:
 
