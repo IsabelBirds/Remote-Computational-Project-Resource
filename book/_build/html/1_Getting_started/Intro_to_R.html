@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Useful R Resources &#8212; Remote Computational Project Resource</title>
+    <title>Introduction to R &#8212; Remote Computational Project Resource</title>
     
   <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
@@ -55,7 +55,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="How to ask for help effectively" href="How_to_ask_for_help.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="Getting_started.html" />
+    <link rel="prev" title="Getting started" href="Getting_started.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -91,25 +91,34 @@
  </li>
 </ul>
 <ul class="current nav sidenav_l1">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Key resources for getting started using R
+ <li class="toctree-l1 current active collapsible-parent">
+  <a class="reference internal" href="Getting_started.html">
+   Getting started
   </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="How_to_ask_for_help.html">
-   How to ask for computational help effectively
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Finding_your_data.html">
-   Things to think about when choosing data
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="General_data_science_resources.html">
-   General data science resources
-  </a>
+  <ul class="current collapse-ul">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Introduction to R
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="How_to_ask_for_help.html">
+     How to ask for computational help effectively
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Finding_your_data.html">
+     Things to think about when choosing data
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="General_data_science_resources.html">
+     General data science resources
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../2_Papers_and_definitions/Analysis_specific_papers.html">
@@ -171,7 +180,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/1_Getting_started/Key_R_resources.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/1_Getting_started/Intro_to_R.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -191,10 +200,10 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/IsabelBirds/Undergrad_Project_Resource/issues/new?title=Issue%20on%20page%20%2F1_Getting_started/Key_R_resources.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/IsabelBirds/Undergrad_Project_Resource/issues/new?title=Issue%20on%20page%20%2F1_Getting_started/Intro_to_R.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/IsabelBirds/Undergrad_Project_Resource/edit/master/book/1_Getting_started/Key_R_resources.md"><button
+        <a class="edit-button" href="https://github.com/IsabelBirds/Undergrad_Project_Resource/edit/master/book/1_Getting_started/Intro_to_R.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -221,48 +230,33 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#introduction-to-r">
-   Introduction to R
+  <a class="reference internal nav-link" href="#running-r">
+   Running R
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#r-cheatsheets">
-   R Cheatsheets
+  <a class="reference internal nav-link" href="#installing-r-and-rstudio">
+   Installing R and Rstudio
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#data-carpentry">
-   Data Carpentry
+  <a class="reference internal nav-link" href="#installing-packages">
+   Installing Packages
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#hands-on-programming-with-r">
-   Hands-On programming with R
+  <a class="reference internal nav-link" href="#recording-your-work">
+   Recording your work
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#r-for-data-science">
-   R for Data Science
+  <a class="reference internal nav-link" href="#useful-resources">
+   Useful resources
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#computational-genomics-with-r">
-   Computational Genomics with R
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#r-statistics">
-   r-statistics
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#stackoverflow">
-   Stackoverflow
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#biostars">
-   Biostars
+  <a class="reference internal nav-link" href="#online-textbooks">
+   Online Textbooks
   </a>
  </li>
 </ul>
@@ -277,64 +271,67 @@
         
               <div>
                 
-  <div class="section" id="useful-r-resources">
-<h1>Useful R Resources<a class="headerlink" href="#useful-r-resources" title="Permalink to this headline">¶</a></h1>
-<p>R is a really popular language, particularly for working with data in biology, so there are loads of packages and tutorials out there.</p>
-<p>It’s also generally more popular with women and other marginalised genders due to the strong, diverse community. See <a class="reference external" href="https://rladies.org/">R-ladies</a> - the name needs work, but it’s a super friendly community for anyone who isn’t a cis man, whether you’re looking for troubleshooting, a job or just some fun coding. :smile:</p>
-<p>R can be run in RStudio, an integrated development environment. So basically, instead of typing straight into the terminal like this:</p>
+  <div class="section" id="introduction-to-r">
+<h1>Introduction to R<a class="headerlink" href="#introduction-to-r" title="Permalink to this headline">¶</a></h1>
+<p>R is a free programming language and environment which is particularly popular for working with data in biology. This means that there are lots of packages and tutorials out there for you to try.</p>
+<p>R can often be more popular with women and other marginalised genders due to its strong, diverse community. This includes <a class="reference external" href="https://rladies.org/">R-ladies</a>, a super friendly community for minority genders. R-Ladies chapters around the world run events, help with troubleshooting codes, and share jobs, so it’s worth taking a look at their site.</p>
+<div class="section" id="running-r">
+<h2>Running R<a class="headerlink" href="#running-r" title="Permalink to this headline">¶</a></h2>
+<p>Most programming languages have some sort of GUI - a graphical user interface. For R this is RStudio. This means that instead of typing straight into the terminal like this:</p>
 <div class="figure align-default" id="terminal-example">
-<a class="reference internal image-reference" href="../_images/Terminal_example.png"><img alt="A screenshot of the terminal, with R open" src="../_images/Terminal_example.png" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../_images/Terminal_example.png"><img alt="A screenshot of the terminal on a Mac computer, with R open." src="../_images/Terminal_example.png" style="width: 500px;" /></a>
 </div>
 <p>You get a nice friendly set up like this:</p>
 <div class="figure align-default" id="r-studio">
-<img alt="A screenshot of Rstudio" src="../_images/RStudio_example.png" />
+<img alt="A screenshot of Rstudio, showing an example Rmarkdown document." src="../_images/RStudio_example.png" />
 </div>
-<p>One of my fave things RStudio can do is rename in scope. This is a neat little trick which changes all occurrences of a given variable name at once.</p>
+<p>Using Rstudio means you can easily edit and run your code and see what files and packages you have loaded all at the same time.</p>
+<p>One of my favourite things you can do in Rstudio is rename in scope. This is a neat little trick which changes all occurrences of a given variable name at once. To access it, you highlight the variable name you want to change, and go to the Code menu, then rename in scope. All occurrences of this variable will now be highlighted, and you can begin typing your new variable name!</p>
 <div class="figure align-default" id="rename-in-scope">
-<a class="reference internal image-reference" href="../_images/rename_in_scope.gif"><img alt="A gif showing how to rename in scope" src="../_images/rename_in_scope.gif" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="../_images/rename_in_scope.gif"><img alt="A gif showing rename in scope used on some example code." src="../_images/rename_in_scope.gif" style="width: 400px;" /></a>
 </div>
-<p>You can also record all of your analyses in <a class="reference external" href="https://rmarkdown.rstudio.com/lesson-1.html">Rmarkdown</a> files - a lot like this file you’re reading right now, which is a markdown file. DO THIS. If you don’t keep a well annotated record of your work either:</p>
-<ol class="simple">
-<li><p>You will forget what you’ve done, and have a rubbish time trying to write up.</p></li>
-<li><p>You will forget where you got your data, and have a rubbish time trying to write up.</p></li>
-<li><p>In 6 - 18 months your supervisor will contact you and ask a random question about the analysis that is key to the work being published and you’ll lose a week rerunning the analysis because you have no idea what you did and you will hate them, yourself, and science as a whole.</p></li>
-</ol>
-<p>So what I’m saying is record everything properly in Rmarkdown documents, and your future self will love you.</p>
-<div class="section" id="introduction-to-r">
-<h2><a class="reference external" href="https://bioinformatics-core-shared-training.github.io/r-intro/index.html">Introduction to R</a><a class="headerlink" href="#introduction-to-r" title="Permalink to this headline">¶</a></h2>
-<p>Ongoing (as of 2020) WFH course run by the Bioinformatics Core at CRUK Cambridge Institute. Looks like a good, relevant introduction to R, RStudio, data manipulation and plots. You can’t access their video chat but all materials and solutions are available.</p>
 </div>
-<div class="section" id="r-cheatsheets">
-<h2><a class="reference external" href="https://rstudio.com/resources/cheatsheets/">R Cheatsheets</a><a class="headerlink" href="#r-cheatsheets" title="Permalink to this headline">¶</a></h2>
-<p>Not every package has a cheatsheet, but key packages like dpylr and ggplot2 do, as well as some more niche packages. Super useful!</p>
+<div class="section" id="installing-r-and-rstudio">
+<h2>Installing R and Rstudio<a class="headerlink" href="#installing-r-and-rstudio" title="Permalink to this headline">¶</a></h2>
+<p>R and Rstudio have to be installed separately, and the exact process will depend on what operating system you use.</p>
+<p>First you will need to download and install R from <a class="reference external" href="https://www.stats.bris.ac.uk/R/">CRAN</a>, The Comphrehensive R Archive Network.</p>
+<p>Then download and install Rstudio Desktop from <a class="reference external" href="https://www.rstudio.com/products/rstudio/download/">Rstudio</a>.</p>
 </div>
-<div class="section" id="data-carpentry">
-<h2><a class="reference external" href="https://datacarpentry.org/lessons/">Data Carpentry</a><a class="headerlink" href="#data-carpentry" title="Permalink to this headline">¶</a></h2>
-<p>A fantastic project aimed at teaching researchers fundamental data skills. Lots of resources! The <a class="reference external" href="https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html">intro to R page</a> would be a good place to start.</p>
+<div class="section" id="installing-packages">
+<h2>Installing Packages<a class="headerlink" href="#installing-packages" title="Permalink to this headline">¶</a></h2>
+<p>There are lots of packages available for R, so they don’t all come pre-installed - you will often need to install packages as you need them.</p>
+<p>To install packages that aren’t on CRAN, you will need devtools.</p>
 </div>
-<div class="section" id="hands-on-programming-with-r">
-<h2><a class="reference external" href="https://rstudio-education.github.io/hopr/">Hands-On programming with R</a><a class="headerlink" href="#hands-on-programming-with-r" title="Permalink to this headline">¶</a></h2>
-<p>Website for the book Hands-On programming with R.</p>
+<div class="section" id="recording-your-work">
+<h2>Recording your work<a class="headerlink" href="#recording-your-work" title="Permalink to this headline">¶</a></h2>
+<p>You can record all of your work in R in <a class="reference external" href="https://rmarkdown.rstudio.com/lesson-1.html">Rmarkdown</a> files - a lot like this file you’re reading right now, which is created in markdown. Rmarkdown files contain plain text and snippets of code. This makes it really easy to keep note of what your code does and why.</p>
+<p>Writing this information properly is super important - think of your Rmarkdown documents as a computational lab book. If you don’t annotate your work well, it will almost certainly come back to bite you. Look at your work, and think - in 18 months, if I opened this document will I know what I did, why, and where I got the data from? If not, fix it right away - I guarantee your future self is already thanking you.</p>
+<p>As you get more confident with Rmarkdown files you will find more and more ways to use them - you can make reports, presentations, interactive dashboards, all sorts!</p>
 </div>
-<div class="section" id="r-for-data-science">
-<h2><a class="reference external" href="https://r4ds.had.co.nz/">R for Data Science</a><a class="headerlink" href="#r-for-data-science" title="Permalink to this headline">¶</a></h2>
-<p>Website for the book R for Data Science.</p>
+<div class="section" id="useful-resources">
+<h2>Useful resources<a class="headerlink" href="#useful-resources" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p><a class="reference external" href="https://datacarpentry.org/lessons/">Data Carpentry</a></p>
+<p>Data Carpentry is fantastic project aimed at teaching researchers fundamental data skills, with lots of resources! The <a class="reference external" href="https://datacarpentry.org/R-ecology-lesson/index.html">Data Analysis and Visulation in R</a> course would be a good place to start. They cover a lot of the information I’ve shared in a lot more detail, including how to get R and Rstudio set up, and lots more.</p>
+</li>
+<li><p><a class="reference external" href="https://bioinformatics-core-shared-training.github.io/r-intro/index.html">Introduction to R</a></p>
+<p>Introduction to R is an ongoing (as of 2020) work from home course run by the Bioinformatics Core at CRUK Cambridge Institute. Includes an introduction to R, RStudio, data manipulation and plots. You can’t access their video chat but all materials and solutions are available.</p>
+</li>
+<li><p><a class="reference external" href="https://rstudio.com/resources/cheatsheets/">R Cheatsheets</a></p>
+<p>Not every R package has a cheatsheet, but key packages like dpylr and ggplot2 do, as well as some more niche packages. These are super useful - I have the dplyr cheat sheet printed out and refer to it all the time.</p>
+</li>
+<li><p><a class="reference external" href="http://r-statistics.co/R-Tutorial.html">r-statistics</a></p>
+<p>A great site aimed at people working on machine learning and stats in R. Also has some great ggplot2 information. Includes a beginner friendly guide to starting out in R.</p>
+</li>
+</ul>
 </div>
-<div class="section" id="computational-genomics-with-r">
-<h2><a class="reference external" href="https://compgenomr.github.io/book/">Computational Genomics with R</a><a class="headerlink" href="#computational-genomics-with-r" title="Permalink to this headline">¶</a></h2>
-<p>Website for the book Computational Genomics with R.</p>
-</div>
-<div class="section" id="r-statistics">
-<h2><a class="reference external" href="http://r-statistics.co/">r-statistics</a><a class="headerlink" href="#r-statistics" title="Permalink to this headline">¶</a></h2>
-<p>A great site aimed at people working on machine learning and stats in R. Also has some great ggplot2 information.</p>
-</div>
-<div class="section" id="stackoverflow">
-<h2><a class="reference external" href="https://stackoverflow.com/">Stackoverflow</a><a class="headerlink" href="#stackoverflow" title="Permalink to this headline">¶</a></h2>
-<p>If you can’t work out how to do something, lots of other people have definitely also had the same issue, so don’t spend ages trying to work it out from scratch. Google and Stackoverflow – LOTS of programming community questions and answers - are your friends.</p>
-</div>
-<div class="section" id="biostars">
-<h2><a class="reference external" href="https://www.biostars.org/">Biostars</a><a class="headerlink" href="#biostars" title="Permalink to this headline">¶</a></h2>
-<p>As you move more into the biological aspects of your analysis, Biostars is the equivalent of Stackoverflow for your questions. How to get raw data, what a certain option in a program means – lots of community info here! Also feel free to ask your own questions, but do your own research first - this is a community of people helping each other for free.</p>
+<div class="section" id="online-textbooks">
+<h2>Online Textbooks<a class="headerlink" href="#online-textbooks" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://rstudio-education.github.io/hopr/">Hands-On programming with R</a></p></li>
+<li><p><a class="reference external" href="https://r4ds.had.co.nz/">R for Data Science</a></p></li>
+<li><p><a class="reference external" href="https://compgenomr.github.io/book/">Computational Genomics with R</a></p></li>
+</ul>
 </div>
 </div>
 
@@ -363,7 +360,7 @@
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="Getting_started.html" title="previous page">&lt;no title&gt;</a>
+    <a class='left-prev' id="prev-link" href="Getting_started.html" title="previous page">Getting started</a>
     <a class='right-next' id="next-link" href="How_to_ask_for_help.html" title="next page">How to ask for help effectively</a>
 
         </div>

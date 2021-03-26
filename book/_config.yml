@@ -1,11 +1,12 @@
 #######################################################################################
 # Book settings
 title: "Remote Computational Project Resource"
+author: "Isabel Birds"
 
 #######################################################################################
 # Execution settings
 execute:
-  excute_notebooks: "off"
+  execute_notebooks: "off"
 
 #######################################################################################
 # Launch button settings
@@ -13,7 +14,10 @@ execute:
 repository:
   url                       : https://github.com/IsabelBirds/Undergrad_Project_Resource
   path_to_book              : "book/"
-
+html:
+  use_repository_button     : true
+  use_issues_button         : true
+  use_edit_page_button      : true
 #######################################################################################
 # Advanced and power-user settings
 sphinx:

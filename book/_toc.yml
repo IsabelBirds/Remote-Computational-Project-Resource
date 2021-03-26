@@ -11,8 +11,8 @@
 # ===== Getting started ========================================
 - file: 1_Getting_started/Getting_started
   sections:
-  - title: Key resources for getting started using R
-    file: 1_Getting_started/Key_R_resources.md
+  - title: Introduction to R
+    file: 1_Getting_started/Intro_to_R.md
   - title: How to ask for computational help effectively
     file: 1_Getting_started/How_to_ask_for_help.md
   - title: Things to think about when choosing data

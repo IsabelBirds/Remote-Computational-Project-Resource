@@ -91,25 +91,34 @@
  </li>
 </ul>
 <ul class="current nav sidenav_l1">
- <li class="toctree-l1">
-  <a class="reference internal" href="../1_Getting_started/Key_R_resources.html">
-   Key resources for getting started using R
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../1_Getting_started/Getting_started.html">
+   Getting started
   </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../1_Getting_started/How_to_ask_for_help.html">
-   How to ask for computational help effectively
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../1_Getting_started/Finding_your_data.html">
-   Things to think about when choosing data
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../1_Getting_started/General_data_science_resources.html">
-   General data science resources
-  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../1_Getting_started/Intro_to_R.html">
+     Introduction to R
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../1_Getting_started/How_to_ask_for_help.html">
+     How to ask for computational help effectively
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../1_Getting_started/Finding_your_data.html">
+     Things to think about when choosing data
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../1_Getting_started/General_data_science_resources.html">
+     General data science resources
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../2_Papers_and_definitions/Analysis_specific_papers.html">
@@ -181,6 +190,24 @@
 </div>
 
             <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/IsabelBirds/Undergrad_Project_Resource"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/IsabelBirds/Undergrad_Project_Resource/issues/new?title=Issue%20on%20page%20%2F3_Tutorials/Online_tutorials.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        <a class="edit-button" href="https://github.com/IsabelBirds/Undergrad_Project_Resource/edit/master/book/3_Tutorials/Online_tutorials.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
 
 
             <!-- Full screen (wrap in <a> to have style consistency -->
@@ -338,7 +365,7 @@ BiocManager::install(“RegParallel”)</p>
     <div class="container">
       <p>
         
-          By The Jupyter Book community<br/>
+          By Isabel Birds<br/>
         
             &copy; Copyright 2020.<br/>
       </p>

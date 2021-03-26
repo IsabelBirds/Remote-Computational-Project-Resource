@@ -29,3 +29,12 @@ This will depend on the question, but it can also be helpful to include the data
 ## The version of the software you're using
 
 This isn't always applicable - generally we don't want to know the version of every package you're using in R. However, if you're struggling to use a certain program or package, tell us what version you're using (e.g. Bowtie2 v2.4.2). Sometimes the commands you need to use will vary between versions, or a given version may have a known issue, so this information can be really useful for troubleshooting.
+
+
+## [Stackoverflow](https://stackoverflow.com/)
+
+If you can’t work out how to do something, lots of other people have definitely also had the same issue, so don’t spend ages trying to work it out from scratch. Google and Stackoverflow – LOTS of programming community questions and answers - are your friends.
+
+## [Biostars](https://www.biostars.org/)
+
+As you move more into the biological aspects of your analysis, Biostars is the equivalent of Stackoverflow for your questions. How to get raw data, what a certain option in a program means – lots of community info here! Also feel free to ask your own questions, but do your own research first - this is a community of people helping each other for free.
