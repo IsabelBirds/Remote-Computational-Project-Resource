@@ -1,0 +1,491 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visualising your data &#8212; Remote Computational Project Resource</title>
+    
+  <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Resource lists" href="../Resource_lists/Resource_lists.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="Data_viz.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Remote Computational Project Resource</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../welcome.html">
+   Welcome
+  </a>
+ </li>
+</ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../Getting_started/Getting_started.html">
+   Getting started
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Getting_started/Intro_to_R.html">
+     Introduction to R
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Getting_started/How_to_ask_for_help.html">
+     How to ask for computational help effectively
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Getting_started/Finding_your_data.html">
+     Things to think about when choosing data
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Getting_started/General_data_science_resources.html">
+     General data science resources
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Papers_and_definitions/Analysis_specific_papers.html">
+   Analysis specific papers
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Papers_and_definitions/General_concepts.html">
+   General concepts
+  </a>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../Tutorials/Tutorials.html">
+   Online Tutorials
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Tutorials/Online_tutorials.html">
+     Online tutorials
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Data Visualisation
+  </a>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../Resource_lists/Resource_lists.html">
+   Resource lists
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Resource_lists/Online_textbooks.html">
+     Online Textbooks
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Resource_lists/VSCode_ext.html">
+     Visual Studio Code Extensions
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/Data_viz/Resources_for_figures.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/IsabelBirds/Undergrad_Project_Resource"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/IsabelBirds/Undergrad_Project_Resource/issues/new?title=Issue%20on%20page%20%2FData_viz/Resources_for_figures.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        <a class="edit-button" href="https://github.com/IsabelBirds/Undergrad_Project_Resource/edit/master/book/Data_viz/Resources_for_figures.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i>
+            Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#accessibilty">
+   Accessibilty
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#viridis">
+   viridis
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ggsci">
+   ggsci
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-r-graph-gallery">
+   The R Graph Gallery
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#a-ggplot2-tutorial-for-beautiful-plotting-in-r">
+   A ggplot2 tutorial for beautiful plotting in R
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#eulerr">
+   Eulerr
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#heatmaps">
+   Heatmaps
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#upset-plots">
+   Upset plots
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ggstatsplot">
+   ggstatsplot
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ggbeeswarm">
+   ggbeeswarm
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ggplot2-extensions">
+   ggplot2 extensions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#online-textbooks">
+   Online Textbooks
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#biorender">
+   Biorender
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#draw-io">
+   Draw.io
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-pudding">
+   The Pudding
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#some-other-pointers">
+   Some other pointers
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="visualising-your-data">
+<h1>Visualising your data<a class="headerlink" href="#visualising-your-data" title="Permalink to this headline">¶</a></h1>
+<p>At any point in your analysis, visualising your data is massively important!</p>
+<p>At the start, it can help you understand your data, see trends and spot outliers. Throughout your project you will have to discuss your resarch with supervisors and peers - diagrams make this so much easier. And when it comes to writing up/presenting your work, hopefully you will already have lots of diagrams ready to go.</p>
+<p>When working computationally, you also may go many days without feeling like you’ve made tangible progress like you would in wet lab. Making a diagram to describe an aspect of your work can help with this feeling, and help you prove to yourself that you have made progress! This doesn’t have to be complicated - for example you could just make a flowchart to describe the pipeline you’ve spent days reading up on, planning and installing.</p>
+<div class="section" id="accessibilty">
+<h2>Accessibilty<a class="headerlink" href="#accessibilty" title="Permalink to this headline">¶</a></h2>
+<p>A really key part of making figures is their accessibility. It’s all well and good making a beautiful figure, but if some of your audience can’t understand it then you’re both missing out!</p>
+<ul class="simple">
+<li><p>Colour choice - you can use a site like <a class="reference external" href="https://accessible-colors.com/">accessible colours</a> or <a class="reference external" href="https://colourcontrast.cc/">colour contrast checker</a> to make sure everyone can access your work.</p></li>
+<li><p>Font size - make sure all text is large enough to be clear (even from a distance if you’re presenting a poster).</p></li>
+<li><p>Language - If you’re presenting a poster to a mixed audience, they may not all understand the jargon you use everyday.</p></li>
+<li><p>Microphones - slightly off the topic of data vis, but if you’re presenting at a conference, never say no to the microphone. Even if you think your voice is loud enough to be heard throughout the room, there may be people present who need the microphone to be used to be able to hear you.</p></li>
+</ul>
+</div>
+<div class="section" id="viridis">
+<h2><a class="reference external" href="https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html">viridis</a><a class="headerlink" href="#viridis" title="Permalink to this headline">¶</a></h2>
+<p>My favourite colour palette. Pretty and colour-blind friendly!</p>
+</div>
+<div class="section" id="ggsci">
+<h2><a class="reference external" href="https://cran.r-project.org/web/packages/ggsci/vignettes/ggsci.html">ggsci</a><a class="headerlink" href="#ggsci" title="Permalink to this headline">¶</a></h2>
+<p>ggsci has some colour palettes based on various journals if you’re feeling fancy, or some based on things like star trek if you’re more like me…</p>
+</div>
+<div class="section" id="the-r-graph-gallery">
+<h2><a class="reference external" href="https://www.r-graph-gallery.com/">The R Graph Gallery</a><a class="headerlink" href="#the-r-graph-gallery" title="Permalink to this headline">¶</a></h2>
+<p>If you want to make a graph in R, The R Graph Gallery is the place to start. It has lots of different ideas for plots, and simple to complex tutorials.</p>
+</div>
+<div class="section" id="a-ggplot2-tutorial-for-beautiful-plotting-in-r">
+<h2><a class="reference external" href="https://cedricscherer.netlify.app/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/#toc">A ggplot2 tutorial for beautiful plotting in R</a><a class="headerlink" href="#a-ggplot2-tutorial-for-beautiful-plotting-in-r" title="Permalink to this headline">¶</a></h2>
+<p>Lots of information and resources to help you make pretty plots.</p>
+</div>
+<div class="section" id="eulerr">
+<h2><a class="reference external" href="https://github.com/jolars/eulerr">Eulerr</a><a class="headerlink" href="#eulerr" title="Permalink to this headline">¶</a></h2>
+<p>A personal pet hate - venn diagrams that aren’t proportional! Euler fixes this by making area-proportional diagrams, or if that is impossible, a good approximation with included goodness-of-fit stats!
+(Euler diagrams are very similar to venns, they just don’t require every set to interact.)</p>
+</div>
+<div class="section" id="heatmaps">
+<h2><a class="reference external" href="http://www.opiniomics.org/you-probably-dont-understand-heatmaps/">Heatmaps</a><a class="headerlink" href="#heatmaps" title="Permalink to this headline">¶</a></h2>
+<p>A useful primer on what heatmaps actually tell us.</p>
+</div>
+<div class="section" id="upset-plots">
+<h2><a class="reference external" href="https://github.com/hms-dbmi/UpSetR">Upset plots</a><a class="headerlink" href="#upset-plots" title="Permalink to this headline">¶</a></h2>
+<p>I’m a big fan of Upset plots. If you have lots of groups in your data, and venn diagrams turn into a massive confusing mess, that’s the time to try an upset plot. They use a matrix to represent different intersections, and a bar plot to visualise the number of elements in each intersection. You can also get fancy and introduce queries or extra plots that describe different features of your data. The only downside is I think there is currently a limit of 16 groupings per plot.</p>
+</div>
+<div class="section" id="ggstatsplot">
+<h2><a class="reference external" href="https://indrajeetpatil.github.io/ggstatsplot/">ggstatsplot</a><a class="headerlink" href="#ggstatsplot" title="Permalink to this headline">¶</a></h2>
+<p>Another package I’m a fan of. This package runs statistical tests, and creates plots with them included. Also makes lovely violin/box plot combinations which are much more informative than a straightforward box plot.</p>
+</div>
+<div class="section" id="ggbeeswarm">
+<h2><a class="reference external" href="https://github.com/eclarke/ggbeeswarm">ggbeeswarm</a><a class="headerlink" href="#ggbeeswarm" title="Permalink to this headline">¶</a></h2>
+<p>Are the points in your violin scatter plots overlapping so you can’t see all the data? Ta-da, ggbeeswarm fixed it!</p>
+</div>
+<div class="section" id="ggplot2-extensions">
+<h2><a class="reference external" href="https://exts.ggplot2.tidyverse.org/gallery/">ggplot2 extensions</a><a class="headerlink" href="#ggplot2-extensions" title="Permalink to this headline">¶</a></h2>
+<p>All the extensions I’ve mentioned above and more!</p>
+</div>
+<div class="section" id="online-textbooks">
+<h2>Online Textbooks<a class="headerlink" href="#online-textbooks" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://ggplot2-book.org/">ggplot2: elegant graphics for data analysis</a> - A guide to the Grammar of Graphics used by ggplot2 - for understanding theory.</p></li>
+<li><p><a class="reference external" href="http://www.cookbook-r.com/Graphs/">R Graphics Cookbook</a> - The whole book isn’t available online, but some useful information is on the site about making data graphics in R.</p></li>
+<li><p><a class="reference external" href="https://clauswilke.com/dataviz/">Fundamentals of Data Visualisation</a> - A guide to effectively communicating your data using figures.</p></li>
+</ul>
+</div>
+<div class="section" id="biorender">
+<h2><a class="reference external" href="https://biorender.com/">Biorender</a><a class="headerlink" href="#biorender" title="Permalink to this headline">¶</a></h2>
+<p>If you need to make a figure to describe the biology behind your work or a potential mechanism, Biorender is a great resource - much easier than messing about in excel for hours! You’ll need a license to use the figures in publications or download figures in the highest quality, so worth mentioning to your supervisor.</p>
+</div>
+<div class="section" id="draw-io">
+<h2><a class="reference external" href="https://www.draw.io/index.html">Draw.io</a><a class="headerlink" href="#draw-io" title="Permalink to this headline">¶</a></h2>
+<p>For making flowcharts to describe your pipelines.</p>
+</div>
+<div class="section" id="the-pudding">
+<h2><a class="reference external" href="https://pudding.cool/">The Pudding</a><a class="headerlink" href="#the-pudding" title="Permalink to this headline">¶</a></h2>
+<p>Not necessarily work related… but if you want a break and fancy looking at some cool uses of data vis, check The Pudding out.</p>
+</div>
+<div class="section" id="some-other-pointers">
+<h2>Some other pointers<a class="headerlink" href="#some-other-pointers" title="Permalink to this headline">¶</a></h2>
+<p>Some of these pointers may not make sense until you’re trying to make a certain plot, but I’ve put them here in the hopes they are useful (also so I don’t forget…).</p>
+<ul class="simple">
+<li><p>If you use xlim/ylim or scale_y_continous() to zoom in on a boxplot, ggplot recalculates the range etc based on that limit. If you want to include the outliers but just zoom in without recalculation, use coord_cartesian() to change the limits.</p></li>
+</ul>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./Data_viz"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="Data_viz.html" title="previous page">&lt;no title&gt;</a>
+    <a class='right-next' id="next-link" href="../Resource_lists/Resource_lists.html" title="next page">Resource lists</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Isabel Birds<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>

@@ -49,7 +49,7 @@ Then download and install Rstudio Desktop from [Rstudio](https://www.rstudio.com
 
 There are lots of packages available for R, so they don't all come pre-installed - you will often need to install packages as you need them.
 
-```{r}
+```r
 #Install ggplot2 from CRAN
 install.packages("ggplot2")
 
@@ -59,7 +59,7 @@ library(ggplot2)
 
 To install packages that aren't on CRAN, you will need devtools.
 
-```{r}
+```r
 #Install devtools from CRAN
 install.packages("devtools")
 

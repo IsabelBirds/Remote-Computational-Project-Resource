@@ -56,17 +56,11 @@ Are the points in your violin scatter plots overlapping so you can't see all the
 
 All the extensions I've mentioned above and more!
 
-## [ggplot2: elegant graphics for data analysis](https://ggplot2-book.org/)
+## Online Textbooks
 
-Website for the book - ggplot2: elegant graphics for data analysis. A guide to the Grammar of Graphics used by ggplot2 - for understanding theory.
-
-## [R Graphics Cookbook](http://www.cookbook-r.com/Graphs/)
-
-Website for the book - R Graphics Cookbook. The whole book isn't available online, but some useful information is on the site about making data graphics in R.
-
-## [Fundamentals of Data Visualisation](https://clauswilke.com/dataviz/)
-
-Website for the book - Fundamentals of Data Visualisation. A guide to effectively communicating your data using figures.
+* [ggplot2: elegant graphics for data analysis](https://ggplot2-book.org/) - A guide to the Grammar of Graphics used by ggplot2 - for understanding theory.
+* [R Graphics Cookbook](http://www.cookbook-r.com/Graphs/) - The whole book isn't available online, but some useful information is on the site about making data graphics in R.
+* [Fundamentals of Data Visualisation](https://clauswilke.com/dataviz/) - A guide to effectively communicating your data using figures.
 
 ## [Biorender](https://biorender.com/)
 
@@ -85,3 +79,4 @@ Not necessarily work related... but if you want a break and fancy looking at som
 Some of these pointers may not make sense until you're trying to make a certain plot, but I've put them here in the hopes they are useful (also so I don't forget...).
 
 * If you use xlim/ylim or scale_y_continous() to zoom in on a boxplot, ggplot recalculates the range etc based on that limit. If you want to include the outliers but just zoom in without recalculation, use coord_cartesian() to change the limits.
+
