@@ -13,7 +13,7 @@
   sections:
   - title: Introduction to R
     file: Getting_started/Intro_to_R.md
-  - title: How to ask for computational help effectively
+  - title: Asking for help
     file: Getting_started/How_to_ask_for_help.md
   - title: Things to think about when choosing data
     file: Getting_started/Finding_your_data.md

@@ -1,40 +1,65 @@
-# How to ask for help effectively
+# Asking for help
 
-A common issue for people new to coding is that they don't know how to ask for help effectively. This leads to a long confusing chain of emails which is frustrating for all involved - the demonstrator doesn't know what the problem actually is, and the student is stuck waiting with their problem unsolved.
+A common issue for people new to coding is that they don't know how to ask for help effectively.
+This is a normal part of learning any new skill - it takes time to learn what can cause a problem, and the kind of information you need to troubleshoot that problem.
 
-So when you email to ask fo help, make sure you tell us:
+In person this barrier can be quite easy to overcome.
+You can look at your code with the person helping you, talk through it, and find a solution.
 
-## What you’re trying to do
+However, you will probably use emails, messages, and forums to ask for help most of the time.
+So here are some pointers to help you communicate  your problem clearly, and in a way that makes it easy for others to help you:
 
-When you're midway through a project and it's all you're thinking about, it might seem odd to think that your demonstrator has forgotten the exact details of what you're doing - after all, you chat every week. However, they're probably working on lots of different things, and they feel the same way about their own project, so a reminder of what you're working on always appreciated!
+## 1. Say what you’re trying to do
 
-## The code you're trying to run
+ Clearly state the purpose of your code. What are you putting in, and what do you aim to get out?
 
-Send the document with your code in, and give us details! Did you write it all yourself? Is it based on someone else's code? Is it based on information from a manual for some software? This is really important - it could be as simple as you have a bracket in the wrong place, or misnamed variable - we've all been there, but we can't help you spot this if you don't share your code!
+This may seem like an obvious point, but it is often missed when asking a collaborator or teacher for help.
+When you're deep in a project and it's all you're thinking about, it might seem odd that your collaborator has forgotten the details of what you're working on, especially if you're in regular contact.
+However, they're probably working on lots of different things, and feel the same way about their own projects, so a reminder of what you're working on will always be appreciated.
 
-## The error message you're getting
+## 2. Describe the problem
 
-This is key!
+What problem are you encountering?
 
-## Explain how you've tried to fix it so far
+It could be that you don't know how to perform a certain task, or you could be getting an error when you run your code.
+If you get an error message, make sure to include it.
 
-How have you tried to solve it so far? Why do you think these things didn't work?
+## 3. Share the code you're trying to run
 
-When you googled your error code, did anything helpful show up? Were there any web pages that discuss the issue that you didn't quite understand? The key thing here is that demonstrators are not google - everyone who codes has to look up error messages all of the time, show us that you've had a go.
+Share your code and give details that add context.
 
-## Include some data
+If your code is based on someone elses code, or information from a manual, the problem could be as simple as a missing bracket or misnamed variable.
+Everyone makes little mistakes like this all of the time, but we can't help you spot them if you don't give this detail!
 
-This will depend on the question, but it can also be helpful to include the data you're working on, a link to the data, or a smaller example data set.
+## 4. Explain how you've tried to fix the problem
 
-## The version of the software you're using
+How have you tried to solve it so far?
+Why do you think your solutions didn't work?
 
-This isn't always applicable - generally we don't want to know the version of every package you're using in R. However, if you're struggling to use a certain program or package, tell us what version you're using (e.g. Bowtie2 v2.4.2). Sometimes the commands you need to use will vary between versions, or a given version may have a known issue, so this information can be really useful for troubleshooting.
+The first thing you're likely to do when you get an error is look it up in a manual, or google it.
+Even if you didn't quite understand what you found, you're saving someone else replicating that work if you provide a link to that information.
 
+This also shows that you've had a go at fixing the problem.
+If a question has already been asked and answered on a forum, or a definition of a term you don't understand comes up as the first google result, people are likely to just give you that link and no more detail.
+If you can be specific about what you don't understand, you are more likely to get answers that help you.
 
-## [Stackoverflow](https://stackoverflow.com/)
+## 5. Share some data
 
-If you can’t work out how to do something, lots of other people have definitely also had the same issue, so don’t spend ages trying to work it out from scratch. Google and Stackoverflow – LOTS of programming community questions and answers - are your friends.
+This will depend on the question, but it can be helpful to include the data you're working on, a link to the data, or a smaller example data set.
+This allows people to test their solutions to your problem.
 
-## [Biostars](https://www.biostars.org/)
+## 6. Give details about the software you're using.
 
-As you move more into the biological aspects of your analysis, Biostars is the equivalent of Stackoverflow for your questions. How to get raw data, what a certain option in a program means – lots of community info here! Also feel free to ask your own questions, but do your own research first - this is a community of people helping each other for free.
+This isn't always applicable - *generally* we don't want to know the version of every package you're using in R.
+(But if someone asks, you can check by using ```sessionInfo()```)
+
+If you're struggling to use a certain program or package, you should specify which version you're using, for example Bowtie2 v2.4.2. Sometimes the commands you need to use will vary between versions, or a given version may have a known issue, so this information can be really useful for troubleshooting.
+
+# Where to ask for help
+
+There are lots of communities online where you can ask for and provide help.
+If you're having a problem, someone else has almost definitely been there before you, and might already have asked for the help you need!
+These include:
+
+* [Stackoverflow](https://stackoverflow.com/) - a programming community with loads of questions and answers.
+* [Biostars](https://www.biostars.org/) - like Stackoverflow, but for more biological questions. How to get raw data, what a certain option in a program means – there is lots of community info here!

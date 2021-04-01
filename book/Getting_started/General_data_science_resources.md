@@ -17,8 +17,3 @@ More great online resources that aren't R specific.
 ## [R, Open Research, and Reproducibility](https://r-openresearch-reproducibility.netlify.app/)
 
 Resources from masters courses by Andrew stewart at the University of Manchester on R, Open Research, and Reproducibility.
-
-## Online Textbooks
-
-* [Mastering Shiny](https://mastering-shiny.org/) - Shiny is a framework for making web applications in R.
-* [Advanced R](https://adv-r.hadley.nz/)
