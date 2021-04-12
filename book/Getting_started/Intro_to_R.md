@@ -107,6 +107,10 @@ As you get more confident with Rmarkdown files you will find more and more ways 
     Introduction to R is an ongoing (as of 2020) work from home course run by the Bioinformatics Core at CRUK Cambridge Institute.
     Includes an introduction to R, RStudio, data manipulation and plots.
     You can’t access their video chat but all materials and solutions are available.
+    
+* [R, Open Research, and Reproducibility](https://r-openresearch-reproducibility.netlify.app/)
+
+    Great resources from masters courses by Andrew stewart at the University of Manchester on R, Open Research, and Reproducibility.
 
 * [R Cheatsheets](https://rstudio.com/resources/cheatsheets/)
 

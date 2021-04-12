@@ -107,16 +107,6 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="How_to_ask_for_help.html#where-to-ask-for-help">
-     Where to ask for help
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="Finding_your_data.html">
-     Things to think about when choosing data
-    </a>
-   </li>
-   <li class="toctree-l2">
     <a class="reference internal" href="General_data_science_resources.html">
      General data science resources
     </a>
@@ -124,16 +114,6 @@
   </ul>
   <i class="fas fa-chevron-down">
   </i>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../Papers_and_definitions/Analysis_specific_papers.html">
-   Analysis specific papers
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../Papers_and_definitions/General_concepts.html">
-   General concepts
-  </a>
  </li>
  <li class="toctree-l1 collapsible-parent">
   <a class="reference internal" href="../Tutorials/Tutorials.html">
@@ -149,9 +129,57 @@
   <i class="fas fa-chevron-down">
   </i>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../Data_viz/Resources_for_figures.html">
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../Finding_data/Data.html">
+   Finding Data
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Finding_data/Things_to_consider.html">
+     Things to think about when finding data
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Finding_data/Data_sources.html">
+     Sources for biological data
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../Data_viz/Data_viz.html">
    Data Visualisation
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Data_viz/Making_figures_in_R.html">
+     Data Visualisation in R
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Data_viz/General_figures.html">
+     General Data Visualisation Resources
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Data_viz/Accessibility.html">
+     Accessible figures
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Papers_and_definitions/Analysis_specific_papers.html">
+   Analysis specific papers
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Papers_and_definitions/General_concepts.html">
+   General concepts
   </a>
  </li>
  <li class="toctree-l1 collapsible-parent">
@@ -306,11 +334,15 @@
                 
   <div class="section" id="introduction-to-r">
 <h1>Introduction to R<a class="headerlink" href="#introduction-to-r" title="Permalink to this headline">¶</a></h1>
-<p>R is a free programming language and environment which is particularly popular for working with data in biology. This means that there are lots of packages and tutorials out there for you to try.</p>
-<p>R can often be more popular with women and other marginalised genders due to its strong, diverse community. This includes <a class="reference external" href="https://rladies.org/">R-ladies</a>, a super friendly community for minority genders. R-Ladies chapters around the world run events, help with troubleshooting codes, and share jobs, so it’s worth taking a look at their site.</p>
+<p>R is a free programming language and environment which is particularly popular for working with data in biology.
+This means that there are lots of packages and tutorials out there for you to try.</p>
+<p>R can often be more popular with women and other marginalised genders due to its strong, diverse community.
+This includes <a class="reference external" href="https://rladies.org/">R-ladies</a>, a super friendly community for minority genders.
+R-Ladies chapters around the world run events, help with troubleshooting codes, and share jobs, so it’s worth taking a look at their site.</p>
 <div class="section" id="running-r">
 <h2>Running R<a class="headerlink" href="#running-r" title="Permalink to this headline">¶</a></h2>
-<p>Most programming languages have some sort of GUI - a graphical user interface. For R this is RStudio. This means that instead of typing straight into the terminal like this:</p>
+<p>Most programming languages have some sort of GUI - a graphical user interface. For R this is RStudio.
+This means that instead of typing straight into the terminal like this:</p>
 <div class="figure align-default" id="terminal-example">
 <a class="reference internal image-reference" href="../_images/Terminal_example.png"><img alt="A screenshot of the terminal on a Mac computer, with R open." src="../_images/Terminal_example.png" style="width: 500px;" /></a>
 </div>
@@ -319,7 +351,9 @@
 <img alt="A screenshot of Rstudio, showing an example Rmarkdown document." src="../_images/RStudio_example.png" />
 </div>
 <p>Using Rstudio means you can easily edit and run your code and see what files and packages you have loaded all at the same time.</p>
-<p>One of my favourite things you can do in Rstudio is rename in scope. This is a neat little trick which changes all occurrences of a given variable name at once. To access it, you highlight the variable name you want to change, and go to the Code menu, then rename in scope. All occurrences of this variable will now be highlighted, and you can begin typing your new variable name!</p>
+<p>One of my favourite things you can do in Rstudio is rename in scope. This is a neat little trick which changes all occurrences of a given variable name at once.
+To access it, you highlight the variable name you want to change, and go to the Code menu, then rename in scope.
+All occurrences of this variable will now be highlighted, and you can begin typing your new variable name!</p>
 <div class="figure align-default" id="rename-in-scope">
 <a class="reference internal image-reference" href="../_images/rename_in_scope.gif"><img alt="A gif showing rename in scope used on some example code." src="../_images/rename_in_scope.gif" style="width: 400px;" /></a>
 </div>
@@ -333,7 +367,8 @@
 <div class="section" id="installing-packages">
 <h2>Installing Packages<a class="headerlink" href="#installing-packages" title="Permalink to this headline">¶</a></h2>
 <p>There are lots of packages available for R, so they don’t all come pre-installed - you will often need to install packages as you need them.</p>
-<p>A lot of packages are easily accessible from CRAN, and can be installed using the <code class="docutils literal notranslate"><span class="pre">install.packages()</span></code> function. You will then need to use the <code class="docutils literal notranslate"><span class="pre">library()</span></code> function to load the package into your R environment.</p>
+<p>A lot of packages are easily accessible from CRAN, and can be installed using the <code class="docutils literal notranslate"><span class="pre">install.packages()</span></code> function.
+You will then need to use the <code class="docutils literal notranslate"><span class="pre">library()</span></code> function to load the package into your R environment.</p>
 <div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="c1">#Install ggplot2 from CRAN</span>
 <span class="nf">install.packages</span><span class="p">(</span><span class="s">&quot;ggplot2&quot;</span><span class="p">)</span>
 
@@ -359,24 +394,36 @@
 </div>
 <div class="section" id="recording-your-work">
 <h2>Recording your work<a class="headerlink" href="#recording-your-work" title="Permalink to this headline">¶</a></h2>
-<p>You can record all of your work in R in <a class="reference external" href="https://rmarkdown.rstudio.com/lesson-1.html">Rmarkdown</a> files - a lot like this file you’re reading right now, which is created in markdown. Rmarkdown files contain plain text and snippets of code. This makes it really easy to keep note of what your code does and why.</p>
-<p>Writing this information properly is super important - think of your Rmarkdown documents as a computational lab book. If you don’t annotate your work well, it will almost certainly come back to bite you. Look at your work, and think - in 18 months, if I opened this document will I know what I did, why, and where I got the data from? If not, fix it right away - I guarantee your future self is already thanking you.</p>
+<p>You can record all of your work in R in <a class="reference external" href="https://rmarkdown.rstudio.com/lesson-1.html">Rmarkdown</a> files - a lot like this file you’re reading right now, which is created in markdown.
+Rmarkdown files contain plain text and snippets of code. This makes it really easy to keep note of what your code does and why.</p>
+<p>Writing this information properly is super important - think of your Rmarkdown documents as a computational lab book.
+If you don’t annotate your work well, it will almost certainly come back to bite you. Look at your work, and think - in 18 months, if I opened this document will I know what I did, why, and where I got the data from?
+If not, fix it right away - I guarantee your future self is already thanking you.</p>
 <p>As you get more confident with Rmarkdown files you will find more and more ways to use them - you can make reports, presentations, interactive dashboards, all sorts!</p>
 </div>
 <div class="section" id="useful-resources">
 <h2>Useful resources<a class="headerlink" href="#useful-resources" title="Permalink to this headline">¶</a></h2>
 <ul>
 <li><p><a class="reference external" href="https://datacarpentry.org/lessons/">Data Carpentry</a></p>
-<p>Data Carpentry is fantastic project aimed at teaching researchers fundamental data skills, with lots of resources! The <a class="reference external" href="https://datacarpentry.org/R-ecology-lesson/index.html">Data Analysis and Visulation in R</a> course would be a good place to start. They cover a lot of the information I’ve shared in a lot more detail, including how to get R and Rstudio set up, and lots more.</p>
+<p>Data Carpentry is fantastic project aimed at teaching researchers fundamental data skills, with lots of resources!
+The <a class="reference external" href="https://datacarpentry.org/R-ecology-lesson/index.html">Data Analysis and Visulation in R</a> course would be a good place to start.
+They cover a lot of the information I’ve shared in a lot more detail, including how to get R and Rstudio set up, and lots more.</p>
 </li>
 <li><p><a class="reference external" href="https://bioinformatics-core-shared-training.github.io/r-intro/index.html">Introduction to R</a></p>
-<p>Introduction to R is an ongoing (as of 2020) work from home course run by the Bioinformatics Core at CRUK Cambridge Institute. Includes an introduction to R, RStudio, data manipulation and plots. You can’t access their video chat but all materials and solutions are available.</p>
+<p>Introduction to R is an ongoing (as of 2020) work from home course run by the Bioinformatics Core at CRUK Cambridge Institute.
+Includes an introduction to R, RStudio, data manipulation and plots.
+You can’t access their video chat but all materials and solutions are available.</p>
+</li>
+<li><p><a class="reference external" href="https://r-openresearch-reproducibility.netlify.app/">R, Open Research, and Reproducibility</a></p>
+<p>Great resources from masters courses by Andrew stewart at the University of Manchester on R, Open Research, and Reproducibility.</p>
 </li>
 <li><p><a class="reference external" href="https://rstudio.com/resources/cheatsheets/">R Cheatsheets</a></p>
-<p>Not every R package has a cheatsheet, but key packages like dpylr and ggplot2 do, as well as some more niche packages. These are super useful - I have the dplyr cheat sheet printed out and refer to it all the time.</p>
+<p>Not every R package has a cheatsheet, but key packages like dpylr and ggplot2 do, as well as some more niche packages.
+These are super useful - I have the dplyr cheat sheet printed out and refer to it all the time.</p>
 </li>
 <li><p><a class="reference external" href="http://r-statistics.co/R-Tutorial.html">r-statistics</a></p>
-<p>A great site aimed at people working on machine learning and stats in R. Also has some great ggplot2 information. Includes a beginner friendly guide to starting out in R.</p>
+<p>A great site aimed at people working on machine learning and stats in R. Also has some great ggplot2 information.
+Includes a beginner friendly guide to starting out in R.</p>
 </li>
 </ul>
 </div>

@@ -56,7 +56,7 @@ This isn't always applicable - *generally* we don't want to know the version of 
 If you're struggling to use a certain program or package, you should specify which version you're using, for example Bowtie2 v2.4.2.
 Sometimes the commands you need to use will vary between versions, or a given version may have a known issue, so this information can be really useful for troubleshooting.
 
-# Where to ask for help
+## Where to ask for help
 
 There are lots of communities online where you can ask for and provide help.
 If you're having a problem, someone else has almost definitely been there before you, and might already have asked for the help you need!

@@ -53,13 +53,15 @@ This allows people to test their solutions to your problem.
 This isn't always applicable - *generally* we don't want to know the version of every package you're using in R.
 (But if someone asks, you can check by using ```sessionInfo()```)
 
-If you're struggling to use a certain program or package, you should specify which version you're using, for example Bowtie2 v2.4.2. Sometimes the commands you need to use will vary between versions, or a given version may have a known issue, so this information can be really useful for troubleshooting.
+If you're struggling to use a certain program or package, you should specify which version you're using, for example Bowtie2 v2.4.2.
+Sometimes the commands you need to use will vary between versions, or a given version may have a known issue, so this information can be really useful for troubleshooting.
 
-# Where to ask for help
+## Where to ask for help
 
 There are lots of communities online where you can ask for and provide help.
 If you're having a problem, someone else has almost definitely been there before you, and might already have asked for the help you need!
 These include:
 
 * [Stackoverflow](https://stackoverflow.com/) - a programming community with loads of questions and answers.
-* [Biostars](https://www.biostars.org/) - like Stackoverflow, but for more biological questions. How to get raw data, what a certain option in a program means – there is lots of community info here!
+* [Biostars](https://www.biostars.org/) - like Stackoverflow, but for more biological questions.
+How to get raw data, what a certain option in a program means – there is lots of community info here!
