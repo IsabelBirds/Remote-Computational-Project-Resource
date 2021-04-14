@@ -11,5 +11,7 @@ Things to consider include:
 * Language - If you're presenting a poster to a mixed audience, they may not all understand the jargon you use everyday.
 * Microphones - if you're presenting work at a conference, always ask to use the microphone.
   Even if you think your voice is loud enough to be heard throughout the room, there may be people present who need the microphone to be used to be able to hear you.
-* Caption - make sure your figure has a comprehensive caption or alt text.
+* Figure legends - make sure your figure has a comprehensive legend or alt text.
     If someone is not able to see a plot, for example, this means they can still benefit from the insight you gained from making it.
+* Video captions - if you're creating video content, make sure you include captions. 
+    If your using automated captioning software, make sure to check them - this is particularly important for any unusaul scientific terms that the software may struggle with.
