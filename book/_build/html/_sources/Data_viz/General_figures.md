@@ -11,6 +11,8 @@ Some more online figure making resources.
 
     For making flowcharts to describe your pipelines.
 
-* [The Pudding](https://pudding.cool/)
+* [Timetree](http://timetree.org/)
 
-    Not necessarily work related... but if you want a break and fancy looking at some cool uses of data vis, check The Pudding out.
+    For creating phylogenetic trees, complete with geologic timescales, oxygen levels, and lots more!
+
+* [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833)

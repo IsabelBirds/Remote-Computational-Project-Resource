@@ -69,3 +69,4 @@ It has lots of different ideas for plots, and simple to complex tutorials.
 Some of these pointers may not make sense until you're trying to make a certain plot, but I've put them here in the hopes they are useful (also so I don't forget...).
 
 * If you use xlim/ylim or scale_y_continous() to zoom in on a boxplot, ggplot recalculates the range etc based on that limit. If you want to include the outliers but just zoom in without recalculation, use coord_cartesian() to change the limits.
+* In ggplot, discrete missing values are displayed. Adding `scale_color_discrete(na.translate = FALSE)` removes them. See [tweet source](https://twitter.com/MaiaPelletier/status/1357079168249458691/photo/1) for details.

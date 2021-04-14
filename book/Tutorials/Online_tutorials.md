@@ -44,3 +44,20 @@ BiocManager::install("RegParallel")
 
 * Tutorial for using limma-voom with RNA-seq data.
 * Doesn't show how to get data.
+
+To do:
+* https://aosmith.rbind.io/ , https://aosmith.rbind.io/2018/01/09/simulate-simulate-part1/
+*  http://www.page-gould.com/simulation/Guide-to-Simulation-for-R.html
+* https://sbresnahan.github.io/RNAseq-to-DEGs/
+* https://rstudio-pubs-static.s3.amazonaws.com/329027_593046fb6d7a427da6b2c538caf601e1.html 
+* http://mfviz.com/hierarchical-models/
+* https://guides.library.upenn.edu/c.php?g=1117669&p=8150225 
+* https://github.com/resulumit/rmd_workshop 
+* https://www.kaylea.co.uk/talk/funwithfunctions/ 
+* https://stats.idre.ucla.edu/other/mult-pkg/whatstat/ 
+* https://www.molecularecologist.com/2019/01/03/simple-gantt-charts-in-r-with-ggplot2-and-the-tidyverse/
+* https://www.natedayta.com/2019/12/25/owning-outlines-in-rstudio/
+* https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/ 
+* https://www.pythonforthelab.com/blog/introduction-to-storing-data-in-files/
+* http://www.rebeccabarter.com/blog/2019-08-05_base_r_to_tidyverse/ 
+* 

@@ -19,18 +19,18 @@
     file: Getting_started/General_data_science_resources.md
 
 # ===== Tutorials ========================================
-- file: Tutorials/Tutorials
-  sections:
-  - title: Online tutorials
-    file: Tutorials/Online_tutorials
+#- file: Tutorials/Tutorials
+#  sections:
+#  - title: Online tutorials
+#   file: Tutorials/Online_tutorials
 
 # ===== Data ========================================
-- file: Finding_data/Data
-  sections:
-  - title: Things to think about when finding data
-    file: Finding_data/Things_to_consider.md
-  - title: Sources for biological data
-    file: Finding_data/Data_sources.md
+#- file: Finding_data/Data
+#  sections:
+#  - title: Things to think about when finding data
+#    file: Finding_data/Things_to_consider.md
+#  - title: Sources for biological data
+#    file: Finding_data/Data_sources.md
 
 # ===== Data vis ========================================
 - file: Data_viz/Data_viz
@@ -42,13 +42,15 @@
   - title: Accessible figures
     file: Data_viz/Accessibility.md
 
+# ===== Writing ========================================
+
 # ===== Papers and definitions ========================================
-- file: Papers_and_definitions/Papers_and_definitions
-  sections:
-  - title: Analysis specific papers 
-    file: Papers_and_definitions/Analysis_specific_papers.md
-  - title: General concepts
-    file: Papers_and_definitions/General_concepts.md
+#- file: Papers_and_definitions/Papers_and_definitions
+#  sections:
+#  - title: Analysis specific papers 
+#   file: Papers_and_definitions/Analysis_specific_papers.md
+#  - title: General concepts
+#    file: Papers_and_definitions/General_concepts.md
 
 
 # ===== Lists of stuff ========================================
@@ -58,3 +60,7 @@
     file: Resource_lists/Online_textbooks.md
   - title: Visual Studio Code Extensions
     file: Resource_lists/VSCode_ext.md
+  - title: Communities
+    file: Resource_lists/Communities.md
+  - title: Computational Biology Adjacent Fun Things
+    file: Resource_lists/Fun_stuff.md
