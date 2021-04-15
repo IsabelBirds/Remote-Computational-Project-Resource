@@ -121,6 +121,10 @@ As you get more confident with Rmarkdown files you will find more and more ways 
 
     A great site aimed at people working on machine learning and stats in R. Also has some great ggplot2 information.
     Includes a beginner friendly guide to starting out in R.
+    
+* [LURNblind](https://r-resources.massey.ac.nz/LURNblind/LURNBlindch2.html#x4-50002)
+
+    An introduction to R aimed at blind users. Includes information about the BrailleR package.
 
 ## Online Textbooks
 
