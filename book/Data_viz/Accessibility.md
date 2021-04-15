@@ -15,3 +15,10 @@ Things to consider include:
     If someone is not able to see a plot, for example, this means they can still benefit from the insight you gained from making it.
 * Video captions - if you're creating video content, make sure you include captions. 
     If your using automated captioning software, make sure to check them - this is particularly important for any unusaul scientific terms that the software may struggle with.
+
+
+There are [R packages](https://jooyoungseo.com/post/ds4blind/) available which make graphs more accessible to visually impaired users: 
+
+* sonify - for data sonification.
+* BrailleR - generates alt text for basic graphs.
+* tactileR - for creating tactile graphs.
