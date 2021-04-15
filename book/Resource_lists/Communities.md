@@ -42,3 +42,8 @@ Here are a few of them:
 * [R-ladies](https://rladies.org/)
 
     A world-wide organisation to promote gender diversity in the R community.
+    
+* [BlindRUG](http://nfbnet.org/mailman/listinfo/blindrug_nfbnet.org)
+
+    Blind R Users Group
+    
