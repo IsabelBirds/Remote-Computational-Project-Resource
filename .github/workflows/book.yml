@@ -14,7 +14,8 @@ jobs:
   deploy-book:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout repo
+      uses: actions/checkout@v2
 
     # Install dependencies
     - name: Set up Python 3.7
@@ -31,11 +32,11 @@ jobs:
         jupyter-book build ./book
         
     - name: Run html proofer
-    uses: chabad360/htmlproofer@master
-    with:
-     directory: "./book/_build/html"
-     arguments: --assume-extension --disable-external --only_4xx
-   continue-on-error: true
+      uses: chabad360/htmlproofer@master
+      with:
+        directory: "./book/_build/html"
+        arguments: --assume-extension --disable-external --only_4xx
+      continue-on-error: true
    
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
