@@ -6,4 +6,3 @@ http://trophiccascades.forestry.oregonstate.edu/sites/trophic/files/Lafferty_Wri
 https://intra.ece.ucr.edu/~rlake/Whitesides_writing_res_paper.pdf 
 https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007 
 
-Try again
