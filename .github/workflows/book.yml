@@ -5,6 +5,9 @@ on:
   push:
     branches:
     - master
+  pull_request:
+     branches:
+       - master
 
 # This job installs dependencies, build the book, and pushes it to `gh-pages`
 jobs:
@@ -26,9 +29,18 @@ jobs:
     - name: Build the book
       run: |
         jupyter-book build ./book
+        
+    - name: Run html proofer
+    uses: chabad360/htmlproofer@master
+    with:
+     directory: "./book/_build/html"
+     arguments: --assume-extension --disable-external --only_4xx
+   continue-on-error: true
+   
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
+      if: github.event_name == 'push' && github.ref == 'refs/heads/master'
       uses: peaceiris/actions-gh-pages@v3.5.9
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_build/html
+        publish_dir: ./book/_build/html
