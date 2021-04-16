@@ -19,10 +19,12 @@
     file: Getting_started/General_data_science_resources.md
 
 # ===== Tutorials ========================================
-#- file: Tutorials/Tutorials
-#  sections:
-#  - title: Online tutorials
-#   file: Tutorials/Online_tutorials
+- file: Tutorials/Tutorials
+  sections:
+  - title: RNA-seq Analysis
+    file: Tutorials/RNA_seq_analysis.md
+  - title: Survival Analysis
+    file: Tutorials/Survival_analysis.md
 
 # ===== Data ========================================
 #- file: Finding_data/Data
@@ -33,16 +35,17 @@
 #    file: Finding_data/Data_sources.md
 
 # ===== Data vis ========================================
-- file: Data_viz/Data_viz
+- file: Data_visualisation/Data_visualisation
   sections:
   - title: Data Visualisation in R
-    file: Data_viz/Making_figures_in_R.md
+    file: Data_visualisation/Making_figures_in_R.md
   - title: General Data Visualisation Resources
-    file: Data_viz/General_figures.md
+    file: Data_visualisation/General_figures.md
   - title: Accessible figures
-    file: Data_viz/Accessibility.md
+    file: Data_visualisation/Accessibility.md
 
 # ===== Writing ========================================
+
 - file: Scientific_writing/Writing_resources
 
 # ===== Papers and definitions ========================================
