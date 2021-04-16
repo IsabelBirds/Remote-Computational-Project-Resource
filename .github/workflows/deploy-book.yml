@@ -37,9 +37,10 @@ jobs:
         directory: "./book/_build/html"
         arguments: --assume-extension --disable-external --only_4xx
       continue-on-error: true
+      
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
-      if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
       uses: peaceiris/actions-gh-pages@v3.6.1
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
