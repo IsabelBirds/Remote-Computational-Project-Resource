@@ -16,6 +16,7 @@
 
 * [Learning Bayesian Statistics](https://www.learnbayesstats.com/)
 * [The Story Collider](https://www.storycollider.org/)
+* [SciCurious Podcast](https://www.scicurious.co.uk/)
 
 ## Crafting
 
@@ -23,3 +24,9 @@
 * [knitwitter](https://knitwitter.com/guide.html)
 
     Encoding binary code into knitting and crochet patterns!
+    
+## Events and Shows
+
+* [Science Is A Drag](https://twitter.com/DragScience)
+* [The Global Science Show](https://twitter.com/GlobalSciShow)
+* [Pint Of Science](https://pintofscience.co.uk/)
