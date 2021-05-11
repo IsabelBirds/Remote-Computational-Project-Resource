@@ -16,3 +16,8 @@ Some more online figure making resources.
     For creating phylogenetic trees, complete with geologic timescales, oxygen levels, and lots more!
 
 * [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833)
+
+* [vizent](https://github.com/luyc12/vizent)
+
+    A python library for bivariate glyphs.
+    
