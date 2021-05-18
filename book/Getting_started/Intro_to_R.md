@@ -117,6 +117,10 @@ As you get more confident with Rmarkdown files you will find more and more ways 
     Not every R package has a cheatsheet, but key packages like dpylr and ggplot2 do, as well as some more niche packages.
     These are super useful - I have the dplyr cheat sheet printed out and refer to it all the time.
 
+* [RStudio Projects and Working Directories: A Beginner's Guide](https://martinctc.github.io/blog/rstudio-projects-and-working-directories-a-beginner's-guide/)
+
+    A guide to setting up and structuring RStudio projects.
+
 * [r-statistics](http://r-statistics.co/R-Tutorial.html)
 
     A great site aimed at people working on machine learning and stats in R. Also has some great ggplot2 information.

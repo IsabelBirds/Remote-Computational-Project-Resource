@@ -17,7 +17,15 @@ Some more online figure making resources.
 
 * [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833)
 
+* [matplotlib cheatsheet](https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets.pdf)
+
+    A cheatsheet for data visulation in python.
+
 * [vizent](https://github.com/luyc12/vizent)
 
     A python library for bivariate glyphs.
+
+* [Bioicons](https://bioicons.com/)
+
+    A free library of open source icons for scientific illustrations.
     

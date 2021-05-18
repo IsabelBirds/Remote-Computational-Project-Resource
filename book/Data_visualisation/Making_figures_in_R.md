@@ -13,6 +13,10 @@ It has lots of different ideas for plots, and simple to complex tutorials.
 * [A ggplot2 tutorial for beautiful plotting in R](https://cedricscherer.netlify.app/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/#toc)
 
     Lots of information and resources to help you make pretty plots.
+    
+* [Data Visualisation](https://datavizs21.classes.andrewheiss.com/)
+
+    Content from PMAP 8921: Data Visualization (Summer 2021) by Dr Andrew Heiss
 
 ## Colour palettes
 
