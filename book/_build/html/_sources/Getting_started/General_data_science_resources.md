@@ -20,3 +20,10 @@ Some more great online resources.
 * [Rosalind](http://rosalind.info/problems/locations/)
 
     A problem solving platform - good to get started applying python to biological problems.
+
+## Git
+
+* [Learn Git Branching](https://learngitbranching.js.org/)
+
+    A visual and interactive way to learn about Git
+    
