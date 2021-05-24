@@ -1,70 +1,28 @@
-# Each entry has the following schema:
-#
-# - title: mytitle   # Title of chapter or subchapter
-#   file: myfile  # filename relative to the  folder.
-#   sections:  # Contains a list of more entries that make up the chapter's subchapters
-#
-# ===== Main Landing Page ========================================
+file: welcome
+sections:
 
-- file: welcome
-
-# ===== Getting started ========================================
 - file: Getting_started/Getting_started
   sections:
-  - title: Introduction to R
-    file: Getting_started/Intro_to_R.md
-  - title: Asking for help
-    file: Getting_started/How_to_ask_for_help.md
-  - title: General data science resources 
-    file: Getting_started/General_data_science_resources.md
+  - file: Getting_started/Intro_to_R
+  - file: Getting_started/General_data_science_resources
+  - file: Getting_started/How_to_ask_for_help
 
-# ===== Tutorials ========================================
 - file: Tutorials/Tutorials
   sections:
-  - title: RNA-seq Analysis
-    file: Tutorials/RNA_seq_analysis.md
-  - title: Survival Analysis
-    file: Tutorials/Survival_analysis.md
+  - file: Tutorials/RNA_seq_analysis
+  - file: Tutorials/Survival_analysis
 
-# ===== Data ========================================
-#- file: Finding_data/Data
-#  sections:
-#  - title: Things to think about when finding data
-#    file: Finding_data/Things_to_consider.md
-#  - title: Sources for biological data
-#    file: Finding_data/Data_sources.md
-
-# ===== Data vis ========================================
 - file: Data_visualisation/Data_visualisation
   sections:
-  - title: Data Visualisation in R
-    file: Data_visualisation/Making_figures_in_R.md
-  - title: General Data Visualisation Resources
-    file: Data_visualisation/General_figures.md
-  - title: Accessible figures
-    file: Data_visualisation/Accessibility.md
-
-# ===== Writing ========================================
+  - file: Data_visualisation/Making_figures_in_R
+  - file: Data_visualisation/Accessibility
+  - file: Data_visualisation/General_figures
 
 - file: Scientific_writing/Writing_resources
 
-# ===== Papers and definitions ========================================
-#- file: Papers_and_definitions/Papers_and_definitions
-#  sections:
-#  - title: Analysis specific papers 
-#   file: Papers_and_definitions/Analysis_specific_papers.md
-#  - title: General concepts
-#    file: Papers_and_definitions/General_concepts.md
-
-
-# ===== Lists of stuff ========================================
 - file: Resource_lists/Resource_lists
   sections:
-  - title: Online Textbooks
-    file: Resource_lists/Online_textbooks.md
-  - title: Visual Studio Code Extensions
-    file: Resource_lists/VSCode_ext.md
-  - title: Communities
-    file: Resource_lists/Communities.md
-  - title: Computational Biology Adjacent Fun Things
-    file: Resource_lists/Fun_stuff.md
+  - file: Resource_lists/Fun_stuff
+  - file: Resource_lists/Communities
+  - file: Resource_lists/Online_textbooks
+  - file: Resource_lists/VSCode_ext
