@@ -13,5 +13,3 @@
 * Example query for open access, colon cancer RNA-seq data:
 
          files.access in ["open"] and files.cases.primary_site in ["colon"] and files.data_category in ["transcriptome profiling"] and files.data_type in ["Gene Expression Quantification"] and files.experimental_strategy in ["RNA-Seq"]
-
-FANTOM https://www.biorxiv.org/content/10.1101/2021.01.13.426305v1#disqus_thread 
