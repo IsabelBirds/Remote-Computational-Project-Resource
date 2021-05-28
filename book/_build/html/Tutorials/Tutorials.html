@@ -5,9 +5,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Online Tutorials &#8212; Remote Computational Project Resource</title>
+    <title>Tutorials &#8212; Remote Computational Project Resource</title>
     
-  <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
 
     
   <link rel="stylesheet"
@@ -19,14 +20,10 @@
 
     
       
-  <link rel="stylesheet"
-    href="../_static/vendor/open-sans_all/1.44.1/index.css">
-  <link rel="stylesheet"
-    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
 
     
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
@@ -34,7 +31,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
 
     <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -44,7 +41,7 @@
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -55,15 +52,15 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="RNA-seq Analysis" href="RNA_seq_analysis.html" />
-    <link rel="prev" title="Asking for help" href="../Getting_started/How_to_ask_for_help.html" />
-
+    <link rel="prev" title="Accessibility" href="../Data_visualisation/Accessibility.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
-
-
-
+    
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
     
 
     <div class="container-xl">
@@ -72,37 +69,47 @@
 <div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
     
         <div class="navbar-brand-box">
-<a class="navbar-brand text-wrap" href="../index.html">
-  
-  
-  <h1 class="site-logo" id="site-title">Remote Computational Project Resource</h1>
-  
-</a>
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      
+      <h1 class="site-logo" id="site-title">Remote Computational Project Resource</h1>
+      
+    </a>
 </div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form>
-<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-    <ul class="nav sidenav_l1">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../welcome.html">
    Welcome
   </a>
  </li>
 </ul>
-<ul class="current nav sidenav_l1">
- <li class="toctree-l1 collapsible-parent">
+<p class="caption">
+ <span class="caption-text">
+  Coding
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../Getting_started/Getting_started.html">
-   Getting started
+   Getting Started
   </a>
-  <ul class="collapse-ul">
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../Getting_started/Intro_to_R.html">
      Introduction to R
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../Getting_started/General_data_science_resources.html">
+    <a class="reference internal" href="../Getting_started/Resources.html">
      General resources
     </a>
    </li>
@@ -112,14 +119,44 @@
     </a>
    </li>
   </ul>
-  <i class="fas fa-chevron-down">
-  </i>
  </li>
- <li class="toctree-l1 current active collapsible-parent">
-  <a class="current reference internal" href="#">
-   Online Tutorials
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Data_visualisation/Data_visualisation.html">
+   Data Visualisation
   </a>
-  <ul class="collapse-ul">
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Data_visualisation/Making_figures_in_R.html">
+     Making figures in R
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Data_visualisation/General_figures.html">
+     General Resources
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Data_visualisation/Accessibility.html">
+     Accessibility
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="current reference internal" href="#">
+   Tutorials
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="RNA_seq_analysis.html">
      RNA-seq Analysis
@@ -131,53 +168,17 @@
     </a>
    </li>
   </ul>
-  <i class="fas fa-chevron-down">
-  </i>
  </li>
- <li class="toctree-l1 collapsible-parent">
-  <a class="reference internal" href="../Data_visualisation/Data_visualisation.html">
-   Data Visualisation
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Resource_lists/Online_resources.html">
+   Online resources
   </a>
-  <ul class="collapse-ul">
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_visualisation/Making_figures_in_R.html">
-     Making figures in R
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_visualisation/Accessibility.html">
-     Accessibility
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_visualisation/General_figures.html">
-     General Resources
-    </a>
-   </li>
-  </ul>
-  <i class="fas fa-chevron-down">
-  </i>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../Scientific_writing/Writing_resources.html">
-   Writing Resources
-  </a>
- </li>
- <li class="toctree-l1 collapsible-parent">
-  <a class="reference internal" href="../Resource_lists/Resource_lists.html">
-   Resource lists
-  </a>
-  <ul class="collapse-ul">
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Resource_lists/Fun_stuff.html">
-     Computational Biology Adjacent Fun Things
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Resource_lists/Communities.html">
-     Communities
-    </a>
-   </li>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../Resource_lists/Online_textbooks.html">
      Online textbooks
@@ -189,11 +190,95 @@
     </a>
    </li>
   </ul>
-  <i class="fas fa-chevron-down">
-  </i>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Data
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Finding_data/Things_to_consider.html">
+   Finding data
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Finding_data/Data_sources.html">
+     Sources for biological data
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Finding_data/File_management.html">
+   Data/file management
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Scientific Writing
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Scientific_writing/Writing_resources.html">
+   Writing Resources
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Scientific_writing/Reading_resources.html">
+   Reading resources
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Communities and fun
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Support/Communities.html">
+   Communities
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Support/Fun_stuff.html">
+   Computational Biology Adjacent Fun
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+  <label for="toctree-checkbox-6">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Support/Podcasts.html">
+     Podcasts
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Support/Events.html">
+     Events and Shows
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Support/Crafting.html">
+     Crafting
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
+    </div>
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
@@ -261,12 +346,12 @@
     </div>
 </div>
 
-
             <!-- Full screen (wrap in <a> to have style consistency -->
-            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                    title="Fullscreen mode"><i
-                        class="fas fa-expand"></i></button></a>
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
 
             <!-- Launch buttons -->
 
@@ -283,8 +368,8 @@
         
               <div>
                 
-  <div class="section" id="online-tutorials">
-<h1>Online Tutorials<a class="headerlink" href="#online-tutorials" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="tutorials">
+<h1>Tutorials<a class="headerlink" href="#tutorials" title="Permalink to this headline">¶</a></h1>
 <p>WORK IN PROGRESS</p>
 <p>This section contains tutorials for various analyses and software, grouped by topic.</p>
 <p>Tutorials that I’ve specifically found for students will have more detailed notes - if you have used a tutorial and want to add some short notes please go for it!</p>
@@ -331,7 +416,7 @@
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="../Getting_started/How_to_ask_for_help.html" title="previous page">Asking for help</a>
+    <a class='left-prev' id="prev-link" href="../Data_visualisation/Accessibility.html" title="previous page">Accessibility</a>
     <a class='right-next' id="next-link" href="RNA_seq_analysis.html" title="next page">RNA-seq Analysis</a>
 
         </div>
@@ -344,7 +429,7 @@
         
           By Isabel Birds<br/>
         
-            &copy; Copyright 2020.<br/>
+            &copy; Copyright 2021.<br/>
       </p>
     </div>
   </footer>
@@ -353,11 +438,9 @@
 
       </div>
     </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
 
-    
-  <script src="../_static/js/index.d3f166471bb80abb5163.js"></script>
-
-
-    
+  
   </body>
 </html>

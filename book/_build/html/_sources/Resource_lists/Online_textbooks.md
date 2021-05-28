@@ -1,7 +1,6 @@
 # Online textbooks
 
-Collected list of free online textbooks.
-
+Free online textbooks.
 ## R
 
 * [Hands-On programming with R](https://rstudio-education.github.io/hopr/)
@@ -12,7 +11,7 @@ Collected list of free online textbooks.
 * [ggplot2: elegant graphics for data analysis](https://ggplot2-book.org/) - A guide to the Grammar of Graphics used by ggplot2 - for understanding theory.
 * [R Graphics Cookbook](http://www.cookbook-r.com/Graphs/) - The whole book isn't available online, but some useful information is on the site about making data graphics in R.
 * [Mastering Spark with R](https://therinspark.com/)
-
+* [Text Mining with R](https://www.tidytextmining.com/index.html)
 ## Data Visualisation
 
 * [Fundamentals of Data Visualisation](https://clauswilke.com/dataviz/) - A guide to effectively communicating your data using figures.

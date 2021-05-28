@@ -1,28 +1,46 @@
-file: welcome
-sections:
+format: jb-book
+root: welcome
 
-- file: Getting_started/Getting_started
-  sections:
-  - file: Getting_started/Intro_to_R
-  - file: Getting_started/General_data_science_resources
-  - file: Getting_started/How_to_ask_for_help
+parts:
+- caption: Coding
+  chapters:
+  - file: Getting_started/Getting_started
+    sections:
+    - file: Getting_started/Intro_to_R
+    - file: Getting_started/Resources
+    - file: Getting_started/How_to_ask_for_help
+  - file: Data_visualisation/Data_visualisation
+    sections:
+    - file: Data_visualisation/Making_figures_in_R
+    - file: Data_visualisation/General_figures
+    - file: Data_visualisation/Accessibility
+  - file: Tutorials/Tutorials
+    sections:
+    - file: Tutorials/RNA_seq_analysis
+    - file: Tutorials/Survival_analysis
+  - file: Resource_lists/Online_resources
+    sections:
+    - file: Resource_lists/Online_textbooks
+    - file: Resource_lists/VSCode_ext
 
-- file: Tutorials/Tutorials
-  sections:
-  - file: Tutorials/RNA_seq_analysis
-  - file: Tutorials/Survival_analysis
+- caption: Data
+  chapters:
+  - file: Finding_data/Things_to_consider
+    sections:
+    - file: Finding_data/Data_sources
+  - file: Finding_data/File_management
 
-- file: Data_visualisation/Data_visualisation
-  sections:
-  - file: Data_visualisation/Making_figures_in_R
-  - file: Data_visualisation/Accessibility
-  - file: Data_visualisation/General_figures
+- caption: Scientific Writing
+  chapters:
+  - file: Scientific_writing/Writing_resources
+  - file: Scientific_writing/Reading_resources
 
-- file: Scientific_writing/Writing_resources
+- caption: Communities and fun
+  chapters:
+  - file: Support/Communities
+  - file: Support/Fun_stuff
+    sections:
+    - file: Support/Podcasts.md
+    - file: Support/Events.md
+    - file: Support/Crafting.md
 
-- file: Resource_lists/Resource_lists
-  sections:
-  - file: Resource_lists/Fun_stuff
-  - file: Resource_lists/Communities
-  - file: Resource_lists/Online_textbooks
-  - file: Resource_lists/VSCode_ext

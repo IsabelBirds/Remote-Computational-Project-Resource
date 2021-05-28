@@ -1,4 +1,4 @@
-# Online Tutorials
+# Tutorials
 
 WORK IN PROGRESS 
 

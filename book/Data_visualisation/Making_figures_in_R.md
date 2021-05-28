@@ -18,6 +18,10 @@ It has lots of different ideas for plots, and simple to complex tutorials.
 
     Content from PMAP 8921: Data Visualization (Summer 2021) by Dr Andrew Heiss
 
+* [The Evolution of a ggplot](https://www.cedricscherer.com/2019/05/17/the-evolution-of-a-ggplot-ep.-1/)
+
+    Awesome blog post about how a simple ggplot can evolve into an informative and appealing figure.
+
 ## Colour palettes
 
 * [viridis](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html)

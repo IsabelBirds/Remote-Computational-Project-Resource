@@ -1,7 +1,6 @@
 # Writing Resources
 
-Some resources that have been shared with me or on twitter to help with scientific writing.
-
+Resources to help with scientific writing
 ## Writing Papers
 
 * [How to write an abstract](https://cbs.umn.edu/sites/cbs.umn.edu/files/public/downloads/Annotated_Nature_abstract.pdf) - from Nature

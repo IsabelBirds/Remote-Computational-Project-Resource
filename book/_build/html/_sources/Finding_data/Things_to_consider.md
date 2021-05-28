@@ -1,12 +1,14 @@
-# Things to think about when finding data
+# Finding data
+
+A key aspect of starting a computational project is finding your data!
+In some cases your supervisor will have data from the lab for you to work on, but you will still need to find things like genomes, or other data to support your work.
 
 There is a wealth of data available online, and this will only increase as more journal prioritise open, reproducible science, and as sequencing costs continue to drop.
-However, this can also be quite overwhelming.
 If you are looking for data to answer a certain research question, thinking about what you need before you start looking can help to narrow and focus your search.
 
-Things to consider:
+## Things to consider:
 
-## What kind of data do you need?
+### What kind of data do you need?
 
 Considering the kind of data you want is a simple way narrow down your search.
 
@@ -37,8 +39,8 @@ It is worth considering how much time you have for your project.
 
 ## What species are you working on?
 
-* Often this will be human - great! Lots of data available, well annotated genome and transcriptome - all of the good things. :dancers:
-* Another model species - also great! However, think about the genetic background of your species. For example, lab mice are WEIRD. Most mouse genomes are from lab mice that have had all sorts of inbreeding and oddness - are they going to give a true answer to your question? On the other hand, there are strains bred specifically for cancer research. :mouse:
+* Often this will be human - great! Lots of data available, well annotated genome and transcriptome - all of the good things. 💃
+* Another model species - also great! However, think about the genetic background of your species. For example, lab mice are WEIRD. Most mouse genomes are from lab mice that have had all sorts of inbreeding and oddness - are they going to give a true answer to your question? On the other hand, there are ,mouse strains bred specifically for things like cancer research. 🐁
 * A bit of a weird species - do your background. Go find out:
   * Is there a genome annotation?
   * Is it a good annotation? What's the N50? When was it last updated?
@@ -46,15 +48,15 @@ It is worth considering how much time you have for your project.
 ## Are you studying a disease, e.g. cancer?
 
 * Exactly what cancer are you interested in?
-* What kind of sample do you want? Tumour only, surrounding tissue.
+* What kind of sample do you want? For example the tumour only, or is ok if there's some surrounding tissue?
 * Treatment/no treatment/both?
 * Do you need cancer patients and normal control tissue?
 * How many variables are likely to impact your results? Age, tumour grade, sex, etc. Does the data you're looking at include this information?
 
 ## Availability
 
-* Science and code should be open source and collaborative. Many journals now require that data is uploaded to a publicly accessible repository. However, not everyone sticks to this - everyone has read the words "data available upon reasonable request" :angry:
-* If you think it's available... have you checked? These things are often an absolute pain, go test the system and be sure before you commit.
+* Science and code should be open source and collaborative. Many journals now require that data is uploaded to a publicly accessible repository. However, not everyone sticks to this - everyone has read the words "data available upon reasonable request".
+* If you think it's available... have you checked? These things are often painful, go test the system and be sure before you commit.
 * Did you definitely check?? Go check.
 
 You need to think about all these things and more. Sit down and think about your research question, and what you need to answer it. Then make yourself a list with two sections:
