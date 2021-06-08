@@ -12,7 +12,7 @@ execute:
 # Launch button settings
 
 repository:
-  url                       : https://github.com/IsabelBirds/Undergrad_Project_Resource
+  url                       : https://github.com/IsabelBirds/Remote-Computational-Project-Resource
   path_to_book              : "book/"
 html:
   use_repository_button     : true
