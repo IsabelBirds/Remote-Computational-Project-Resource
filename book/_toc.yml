@@ -44,3 +44,6 @@ parts:
     - file: Support/Events.md
     - file: Support/Crafting.md
 
+- caption: Getting involved
+  chapters:
+  - file: Getting_involved/Contribution_record.md
