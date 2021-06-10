@@ -31,7 +31,8 @@ alt: A screenshot of Rstudio, showing an example Rmarkdown document.
 
 Using Rstudio means you can easily edit and run your code and see what files and packages you have loaded all at the same time.
 
-One of my favourite things you can do in Rstudio is rename in scope. This is a neat little trick which changes all occurrences of a given variable name at once.
+A great trick you can use in Rstudio is rename in scope. 
+This changes all occurrences of a given variable name at once.
 To access it, you highlight the variable name you want to change, and go to the Code menu, then rename in scope.
 All occurrences of this variable will now be highlighted, and you can begin typing your new variable name!
 

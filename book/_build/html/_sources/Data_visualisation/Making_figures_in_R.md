@@ -1,8 +1,7 @@
 
 # Making figures in R
 
-Here are some of the resources and tutorials I like to refer to when visualising my data using R.
-
+Useful resources and tutorials for visualising data using R.
 ## General resources
 
 * [The R Graph Gallery](https://www.r-graph-gallery.com/)
@@ -26,18 +25,18 @@ It has lots of different ideas for plots, and simple to complex tutorials.
 
 * [viridis](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html)
 
-    My favourite colour palette. Pretty and colour-blind friendly!
+    A pretty and colour-blind friendly palette!
 
 * [ggsci](https://cran.r-project.org/web/packages/ggsci/vignettes/ggsci.html)
 
-    ggsci has some colour palettes based on various journals if you're feeling fancy, or some based on things like star trek if you're more like me...
+    ggsci has some colour palettes based on various journals if you're feeling fancy, or more excitingly some based on things like star trek...
 
 ## Graph types
 
 * [Eulerr](https://github.com/jolars/eulerr)
 
-    A personal pet hate is venn diagrams that aren't proportional.
-    Euler fixes this by making area-proportional diagrams, or if that is impossible, a good approximation with included goodness-of-fit stats!
+    If you are struggling with venn diagrams that aren't proportional, Eulerr can provide a fix.
+    It makes area-proportional diagrams, or if that is impossible, a good approximation with included goodness-of-fit stats!
     (Euler diagrams are very similar to venn diagrams, they just don't require every set to interact.)
 
 * [Heatmaps](http://www.opiniomics.org/you-probably-dont-understand-heatmaps/)
@@ -46,14 +45,12 @@ It has lots of different ideas for plots, and simple to complex tutorials.
 
 * [Upset plots](https://github.com/hms-dbmi/UpSetR)
 
-    I'm a big fan of Upset plots.
     If you have lots of groups in your data, and venn diagrams turn into a massive confusing mess, that's the time to try an upset plot.
     They use a matrix to represent different intersections, and a bar plot to visualise the number of elements in each intersection.
     You can also get fancy and introduce queries or extra plots that describe different features of your data.
 
 * [ggstatsplot](https://indrajeetpatil.github.io/ggstatsplot/)
 
-    Another package I'm a fan of.
     This package runs statistical tests, and creates plots with them included.
     It also makes lovely violin/box plot combinations which are much more informative than a straightforward box plot.
 
@@ -64,7 +61,7 @@ It has lots of different ideas for plots, and simple to complex tutorials.
 
 * [ggplot2 extensions](https://exts.ggplot2.tidyverse.org/gallery/)
 
-    All the extensions I've mentioned above and more!
+    All the extensions mentioned above and more!
 
 ## Online Textbooks
 
@@ -74,7 +71,7 @@ It has lots of different ideas for plots, and simple to complex tutorials.
 
 ## Some other pointers
 
-Some of these pointers may not make sense until you're trying to make a certain plot, but I've put them here in the hopes they are useful (also so I don't forget...).
+Some of these pointers may not make sense until you're trying to make a certain plot, they're gathered here in the hopes they are useful.
 
 * If you use xlim/ylim or scale_y_continous() to zoom in on a boxplot, ggplot recalculates the range etc based on that limit. If you want to include the outliers but just zoom in without recalculation, use coord_cartesian() to change the limits.
 * In ggplot, discrete missing values are displayed. Adding `scale_color_discrete(na.translate = FALSE)` removes them. See [tweet source](https://twitter.com/MaiaPelletier/status/1357079168249458691/photo/1) for details.

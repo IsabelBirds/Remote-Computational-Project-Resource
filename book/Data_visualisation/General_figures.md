@@ -28,4 +28,3 @@ Some more online figure making resources.
 * [Bioicons](https://bioicons.com/)
 
     A free library of open source icons for scientific illustrations.
-    
