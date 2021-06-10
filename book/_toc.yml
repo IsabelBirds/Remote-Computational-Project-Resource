@@ -7,11 +7,13 @@ parts:
   - file: Getting_started/Getting_started
     sections:
     - file: Getting_started/Intro_to_R
+    - file: Getting_started/Intro_to_python
     - file: Getting_started/Resources
     - file: Getting_started/How_to_ask_for_help
   - file: Data_visualisation/Data_visualisation
     sections:
     - file: Data_visualisation/Making_figures_in_R
+    - file: Data_visualisation/Making_figures_in_python
     - file: Data_visualisation/General_figures
     - file: Data_visualisation/Accessibility
   - file: Tutorials/Tutorials
