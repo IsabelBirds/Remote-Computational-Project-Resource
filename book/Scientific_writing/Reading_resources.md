@@ -1,4 +1,4 @@
-# Reading resources
+# Reading Resources
 
 * [Journal article notebook](https://www.patreon.com/posts/print-your-own-7765312)
 
