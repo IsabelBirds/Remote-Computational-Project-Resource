@@ -10,3 +10,6 @@
 * [Nature](https://www.nature.com/nature/podcasts)
 * [The SciComm Toolkit](https://open.spotify.com/show/0B0wBdjqOQvmfjAyHSXUgU?si=0_rXBjY5SYePmbbnVGGrFw&utm_source=copy-link&nd=1)
 * [The Ribozone](https://www.youtube.com/channel/UCyKumXCNRZ4wc9pyE4I4bBQ)
+* [Decoding Life](https://anchor.fm/decoding-life-pod)
+* [Bioinformatics Chat](https://bioinformatics.chat/)
+

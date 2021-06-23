@@ -31,6 +31,10 @@ It has lots of different ideas for plots, and simple to complex tutorials.
 
     ggsci has some colour palettes based on various journals if you're feeling fancy, or more excitingly some based on things like star trek...
 
+* [Pride Palettes](https://joelleforestier.com/#pridepalettes)
+
+    Pride flag colour schemes!
+
 ## Graph types
 
 * [Eulerr](https://github.com/jolars/eulerr)
@@ -58,6 +62,7 @@ It has lots of different ideas for plots, and simple to complex tutorials.
 
     Are the points in your violin scatter plots overlapping so you can't see all the data?
     Ta-da, ggbeeswarm fixed it!
+    You can also find a great tutorial for ggbeeswarm here: [Bee Swarm Charts in R](https://aryntoombs.github.io/tutorials/beeswarm.html).
 
 * [ggplot2 extensions](https://exts.ggplot2.tidyverse.org/gallery/)
 
@@ -68,6 +73,7 @@ It has lots of different ideas for plots, and simple to complex tutorials.
 * [ggplot2: elegant graphics for data analysis](https://ggplot2-book.org/) - A  guide to the Grammar of Graphics used by ggplot2 - for understanding theory.
 * [R Graphics Cookbook](http://www.cookbook-r.com/Graphs/) - The whole book isn't available online, but some useful information is on the site about making data graphics in R.
 * [Fundamentals of Data Visualisation](https://clauswilke.com/dataviz/) - A guide to effectively communicating your data using figures.
+* [Data visualisation using R, for researchers who don’t use R](https://psyteachr.github.io/introdataviz/)
 
 ## Some other pointers
 
