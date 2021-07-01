@@ -16,6 +16,9 @@ Here are a few of them:
 
     A visibility campaign for LGBTQ+ people and their allies working in STEM and STEM-supporting jobs
 
+* [The STEM Village](https://www.thestemvillage.com/)
+
+    A platform to improve visibility of the LGBTQ+ STEM community.
 
 * [BBSTEM](https://bbstem.co.uk/)
 
@@ -34,6 +37,9 @@ Here are a few of them:
 
     Open Science journal club initiative.
 
+* [Data Ethics Club](https://github.com/very-good-science/data-ethics-club)
+
+    Data Ethics Club is a discussion group/"journal" club about doing data science ethically.
 
 * [NorthernBUG](https://northernbug.github.io/)
 
@@ -46,4 +52,3 @@ Here are a few of them:
 * [BlindRUG](http://nfbnet.org/mailman/listinfo/blindrug_nfbnet.org)
 
     Blind R Users Group
-    
