@@ -8,8 +8,15 @@ Resources to help with scientific writing
 * [Ten simple rules for structuring papers](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619)
 * [Writing a scientific paper, step by painful step](http://trophiccascades.forestry.oregonstate.edu/sites/trophic/files/Lafferty_WritingScientificPaper.pdf)
 * [Whitesides' Group: Writing a Paper](https://intra.ece.ucr.edu/~rlake/Whitesides_writing_res_paper.pdf)
+* [Connected Papers](https://www.connectedpapers.com/) - a tool to explore connected research.
 
 ## Writing up computational analyses
 
 * [Ten simple rules for writing and sharing computational analyses in Jupyter Notebooks](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007)
 * [Writing Reproducible Research Papers with R Markdown](https://github.com/resulumit/rmd_workshop)
+
+## Writing Grants
+
+* [Open Grants](https://www.ogrants.org/)
+
+    Examples of grant proposals shared by researchers.

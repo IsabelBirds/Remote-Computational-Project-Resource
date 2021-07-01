@@ -31,7 +31,7 @@ alt: A screenshot of Rstudio, showing an example Rmarkdown document.
 
 Using Rstudio means you can easily edit and run your code and see what files and packages you have loaded all at the same time.
 
-A great trick you can use in Rstudio is rename in scope. 
+A great trick you can use in Rstudio is rename in scope.
 This changes all occurrences of a given variable name at once.
 To access it, you highlight the variable name you want to change, and go to the Code menu, then rename in scope.
 All occurrences of this variable will now be highlighted, and you can begin typing your new variable name!
@@ -108,7 +108,7 @@ As you get more confident with Rmarkdown files you will find more and more ways 
     Introduction to R is an ongoing (as of 2020) work from home course run by the Bioinformatics Core at CRUK Cambridge Institute.
     Includes an introduction to R, RStudio, data manipulation and plots.
     You can’t access their video chat but all materials and solutions are available.
-    
+
 * [R, Open Research, and Reproducibility](https://r-openresearch-reproducibility.netlify.app/)
 
     Great resources from masters courses by Andrew stewart at the University of Manchester on R, Open Research, and Reproducibility.
@@ -126,7 +126,7 @@ As you get more confident with Rmarkdown files you will find more and more ways 
 
     A great site aimed at people working on machine learning and stats in R. Also has some great ggplot2 information.
     Includes a beginner friendly guide to starting out in R.
-    
+
 * [LURNblind](https://r-resources.massey.ac.nz/LURNblind/LURNBlindch2.html#x4-50002)
 
     An introduction to R aimed at blind users. Includes information about the BrailleR package.
@@ -136,3 +136,5 @@ As you get more confident with Rmarkdown files you will find more and more ways 
 * [Hands-On programming with R](https://rstudio-education.github.io/hopr/)
 * [R for Data Science](https://r4ds.had.co.nz/)
 * [Computational Genomics with R](https://compgenomr.github.io/book/)
+* [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+* [RMarkdown for Scientists](https://rmd4sci.njtierney.com/)
