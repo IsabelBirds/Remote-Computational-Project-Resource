@@ -11,9 +11,9 @@ It's easy to customise your workspace set up via extensions, so here is a list o
 
 ## Colour themes
 
-Customise your GUI to make the colour scheme kinder to your eyes.
+Customise your GUI to make the colour scheme kinder to your eyes (or more entertaining!).
 
 * [In Bed By 7pm](https://marketplace.visualstudio.com/items?itemName=sdras.inbedby7pm)
 * [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
 * [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
-  
+* [Fortnite theme](https://marketplace.visualstudio.com/items?itemName=sdras.fortnite-vscode-theme) - A Fornite inspired theme... enjoy...

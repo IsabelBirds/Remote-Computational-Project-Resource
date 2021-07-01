@@ -14,6 +14,7 @@ Free online textbooks.
 * [Mastering Spark with R](https://therinspark.com/)
 * [Text Mining with R](https://www.tidytextmining.com/index.html)
 * [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+* [RMarkdown for Scientists](https://rmd4sci.njtierney.com/)
 
 ## Data Visualisation
 
@@ -27,7 +28,9 @@ Free online textbooks.
 * [OpenIntro Statistics](https://leanpub.com/openintro-statistics)
 * [Bayes Rules!](https://www.bayesrulesbook.com/)
 * [Modern Statistics for Modern Biology](https://www.huber.embl.de/msmb/index.html)
+* [Introduction to Modern Statistics](https://t.co/dyzxjvlOyN?amp=1)
 
 ## Evolution
 
 * [the TIMETREE of LIFE](http://timetree.org/book)
+* [Practical Computing and Bioinformatics for Conservation and Evolutionary Genomics](https://eriqande.github.io/eca-bioinf-handbook/)

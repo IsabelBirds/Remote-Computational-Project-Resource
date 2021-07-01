@@ -12,4 +12,7 @@
 * [The Ribozone](https://www.youtube.com/channel/UCyKumXCNRZ4wc9pyE4I4bBQ)
 * [Decoding Life](https://anchor.fm/decoding-life-pod)
 * [Bioinformatics Chat](https://bioinformatics.chat/)
-
+* [STEMinist Stories](https://anchor.fm/steministstories)
+* [The Turing Podcast](https://www.turing.ac.uk/news/turing-podcast)
+* [ReproducibiliTea Podcast](https://soundcloud.com/reproducibilitea)
+* [Intoxecology](https://podcasts.apple.com/gb/podcast/intoxecology/id1527937815)

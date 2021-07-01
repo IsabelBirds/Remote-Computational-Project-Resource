@@ -137,3 +137,4 @@ As you get more confident with Rmarkdown files you will find more and more ways 
 * [R for Data Science](https://r4ds.had.co.nz/)
 * [Computational Genomics with R](https://compgenomr.github.io/book/)
 * [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+* [RMarkdown for Scientists](https://rmd4sci.njtierney.com/)
