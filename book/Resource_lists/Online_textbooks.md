@@ -10,12 +10,16 @@ Free online textbooks.
 * [Advanced R](https://adv-r.hadley.nz/)
 * [ggplot2: elegant graphics for data analysis](https://ggplot2-book.org/) - A guide to the Grammar of Graphics used by ggplot2 - for understanding theory.
 * [R Graphics Cookbook](http://www.cookbook-r.com/Graphs/) - The whole book isn't available online, but some useful information is on the site about making data graphics in R.
-* * [Data visualisation using R, for researchers who don’t use R](https://psyteachr.github.io/introdataviz/)
+* [Data visualisation using R, for researchers who don’t use R](https://psyteachr.github.io/introdataviz/)
 * [Mastering Spark with R](https://therinspark.com/)
 * [Text Mining with R](https://www.tidytextmining.com/index.html)
 * [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
 * [RMarkdown for Scientists](https://rmd4sci.njtierney.com/)
+* [The Big Book of R](https://www.bigbookofr.com/index.html) - An enormous collection of R-related programming books!
 
+## Python
+
+* [Research Software Engineering with Python](https://merely-useful.tech/py-rse/)
 ## Data Visualisation
 
 * [Fundamentals of Data Visualisation](https://clauswilke.com/dataviz/) - A guide to effectively communicating your data using figures.
@@ -29,8 +33,15 @@ Free online textbooks.
 * [Bayes Rules!](https://www.bayesrulesbook.com/)
 * [Modern Statistics for Modern Biology](https://www.huber.embl.de/msmb/index.html)
 * [Introduction to Modern Statistics](https://t.co/dyzxjvlOyN?amp=1)
+* [Explained Visually](https://setosa.io/ev/?fbclid=IwAR1qDyy7mt2ZZG-VPGhVW9RSRyDnNNVjKNd3sbK7Wya0IrbB3nMVqdOqISs)
+* [Data Disasters](https://data-disasters.netlify.app/)
 
 ## Evolution
 
 * [the TIMETREE of LIFE](http://timetree.org/book)
 * [Practical Computing and Bioinformatics for Conservation and Evolutionary Genomics](https://eriqande.github.io/eca-bioinf-handbook/)
+
+## Linux
+
+* [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg)
+

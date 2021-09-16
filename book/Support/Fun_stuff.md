@@ -13,3 +13,6 @@ Even if you're not convinced coding can be fun yet, hopefully you can find somet
 * [The Command Line Murders](https://github.com/veltman/clmystery)
 
     A command line based whodunnit.
+
+* [Notes on building debugging puzzles](https://jvns.ca/blog/2021/04/16/notes-on-debugging-puzzles/)
+

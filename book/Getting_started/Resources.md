@@ -15,6 +15,10 @@ Some more great online resources for getting started with computational analysis
     The Turing way is an awesome open source community-driven guide to reproducible, ethical, inclusive, and collaborative data science.
     They are really friendly and encourage contribution from the community, so if you want to get some practice using Github, this is a great place to start.
 
+* [Coding Club](https://ourcodingclub.github.io/tutorials.html)
+
+    A peer-learning community established by ecology and environmental science students and researchers from the University of Edinburgh.
+    Has lots of great tutorials and courses.
 ## Python 
 
 * [Rosalind](http://rosalind.info/problems/locations/)

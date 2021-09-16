@@ -21,6 +21,11 @@ It has lots of different ideas for plots, and simple to complex tutorials.
 
     Awesome blog post about how a simple ggplot can evolve into an informative and appealing figure.
 
+* [R Base Graphics: An Idiot's Guide](https://rpubs.com/SusanEJohnston/7953)
+
+    A blog on creating graphics in R using the preinstalled code, instead of 
+    packages such as ggplot2.
+
 ## Colour palettes
 
 * [viridis](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html)

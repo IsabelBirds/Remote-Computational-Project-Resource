@@ -9,6 +9,7 @@ Resources to help with scientific writing
 * [Writing a scientific paper, step by painful step](http://trophiccascades.forestry.oregonstate.edu/sites/trophic/files/Lafferty_WritingScientificPaper.pdf)
 * [Whitesides' Group: Writing a Paper](https://intra.ece.ucr.edu/~rlake/Whitesides_writing_res_paper.pdf)
 * [Connected Papers](https://www.connectedpapers.com/) - a tool to explore connected research.
+* [Don’t perish! A step by step guide to writing a scientific paper](https://t.co/zt1lT1cXfM?amp=1)
 
 ## Writing up computational analyses
 

@@ -131,6 +131,8 @@ As you get more confident with Rmarkdown files you will find more and more ways 
 
     An introduction to R aimed at blind users. Includes information about the BrailleR package.
 
+* [What They Forgot to Teach You About R](https://rstats.wtf/index.html)
+  
 ## Online Textbooks
 
 * [Hands-On programming with R](https://rstudio-education.github.io/hopr/)
@@ -138,3 +140,7 @@ As you get more confident with Rmarkdown files you will find more and more ways 
 * [Computational Genomics with R](https://compgenomr.github.io/book/)
 * [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
 * [RMarkdown for Scientists](https://rmd4sci.njtierney.com/)
+* [The Big Book of R](https://www.bigbookofr.com/index.html)
+
+    An enormous collection of R-related programming books! 
+    All the ones collected here and so many more.

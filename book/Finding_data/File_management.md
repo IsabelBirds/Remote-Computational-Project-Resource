@@ -13,3 +13,6 @@
     A slide deck on reproducible science and managing your data accordingly.
 
 * [Data Management Case Studies](https://guides.library.upenn.edu/c.php?g=1117669&p=8150225 )
+* [Lab Notebook Guidelines](https://ewallace.github.io/manual/lab-notebook)
+
+    Why lab notebooks are important and what you should include in them, from the Wallace Lab.
