@@ -6,7 +6,7 @@ In some cases your supervisor will have data from the lab for you to work on, bu
 There is a wealth of data available online, and this will only increase as more journal prioritise open, reproducible science, and as sequencing costs continue to drop.
 If you are looking for data to answer a certain research question, thinking about what you need before you start looking can help to narrow and focus your search.
 
-## Things to consider:
+## Things to consider
 
 ### What kind of data do you need?
 

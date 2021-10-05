@@ -2,6 +2,7 @@
 # Making figures in R
 
 Useful resources and tutorials for visualising data using R.
+
 ## General resources
 
 * [The R Graph Gallery](https://www.r-graph-gallery.com/)
@@ -12,7 +13,7 @@ It has lots of different ideas for plots, and simple to complex tutorials.
 * [A ggplot2 tutorial for beautiful plotting in R](https://cedricscherer.netlify.app/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/#toc)
 
     Lots of information and resources to help you make pretty plots.
-    
+
 * [Data Visualisation](https://datavizs21.classes.andrewheiss.com/)
 
     Content from PMAP 8921: Data Visualization (Summer 2021) by Dr Andrew Heiss
@@ -20,6 +21,13 @@ It has lots of different ideas for plots, and simple to complex tutorials.
 * [The Evolution of a ggplot](https://www.cedricscherer.com/2019/05/17/the-evolution-of-a-ggplot-ep.-1/)
 
     Awesome blog post about how a simple ggplot can evolve into an informative and appealing figure.
+
+* [R Base Graphics: An Idiot's Guide](https://rpubs.com/SusanEJohnston/7953)
+
+    A blog on creating graphics in R using the preinstalled code, instead of
+    packages such as ggplot2.
+
+* [A Gentle Guide to the Grammar of Graphics with ggplot2](https://pkg.garrickadenbuie.com/gentle-ggplot2/#1)
 
 ## Colour palettes
 

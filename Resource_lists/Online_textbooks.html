@@ -23,7 +23,7 @@
 
     
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
@@ -42,7 +42,7 @@
     <script src="../_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
         const thebe_selector_input = "pre"
@@ -72,13 +72,14 @@
     <a class="navbar-brand text-wrap" href="../index.html">
       
       
+      
       <h1 class="site-logo" id="site-title">Remote Computational Project Resource</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
@@ -375,11 +376,16 @@
             <div class="tocsection onthispage pt-5 pb-3">
                 <i class="fas fa-list"></i> Contents
             </div>
-            <nav id="bd-toc-nav">
+            <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#r">
    R
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#python">
+   Python
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -395,6 +401,16 @@
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#evolution">
    Evolution
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#linux">
+   Linux
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#general-computational-biology">
+   General Computational Biology
   </a>
  </li>
 </ul>
@@ -421,14 +437,18 @@
 <li><p><a class="reference external" href="https://adv-r.hadley.nz/">Advanced R</a></p></li>
 <li><p><a class="reference external" href="https://ggplot2-book.org/">ggplot2: elegant graphics for data analysis</a> - A guide to the Grammar of Graphics used by ggplot2 - for understanding theory.</p></li>
 <li><p><a class="reference external" href="http://www.cookbook-r.com/Graphs/">R Graphics Cookbook</a> - The whole book isn’t available online, but some useful information is on the site about making data graphics in R.</p></li>
-<li><ul>
 <li><p><a class="reference external" href="https://psyteachr.github.io/introdataviz/">Data visualisation using R, for researchers who don’t use R</a></p></li>
-</ul>
-</li>
 <li><p><a class="reference external" href="https://therinspark.com/">Mastering Spark with R</a></p></li>
 <li><p><a class="reference external" href="https://www.tidytextmining.com/index.html">Text Mining with R</a></p></li>
 <li><p><a class="reference external" href="https://bookdown.org/yihui/rmarkdown/">R Markdown: The Definitive Guide</a></p></li>
 <li><p><a class="reference external" href="https://rmd4sci.njtierney.com/">RMarkdown for Scientists</a></p></li>
+<li><p><a class="reference external" href="https://www.bigbookofr.com/index.html">The Big Book of R</a> - An enormous collection of R-related programming books!</p></li>
+</ul>
+</div>
+<div class="section" id="python">
+<h2>Python<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://merely-useful.tech/py-rse">Research Software Engineering with Python</a></p></li>
 </ul>
 </div>
 <div class="section" id="data-visualisation">
@@ -447,6 +467,8 @@
 <li><p><a class="reference external" href="https://www.bayesrulesbook.com/">Bayes Rules!</a></p></li>
 <li><p><a class="reference external" href="https://www.huber.embl.de/msmb/index.html">Modern Statistics for Modern Biology</a></p></li>
 <li><p><a class="reference external" href="https://t.co/dyzxjvlOyN?amp=1">Introduction to Modern Statistics</a></p></li>
+<li><p><a class="reference external" href="https://setosa.io/ev/?fbclid=IwAR1qDyy7mt2ZZG-VPGhVW9RSRyDnNNVjKNd3sbK7Wya0IrbB3nMVqdOqISs">Explained Visually</a></p></li>
+<li><p><a class="reference external" href="https://data-disasters.netlify.app/">Data Disasters</a></p></li>
 </ul>
 </div>
 <div class="section" id="evolution">
@@ -454,6 +476,18 @@
 <ul class="simple">
 <li><p><a class="reference external" href="http://timetree.org/book">the TIMETREE of LIFE</a></p></li>
 <li><p><a class="reference external" href="https://eriqande.github.io/eca-bioinf-handbook/">Practical Computing and Bioinformatics for Conservation and Evolutionary Genomics</a></p></li>
+</ul>
+</div>
+<div class="section" id="linux">
+<h2>Linux<a class="headerlink" href="#linux" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://sysprog21.github.io/lkmpg">The Linux Kernel Module Programming Guide</a></p></li>
+</ul>
+</div>
+<div class="section" id="general-computational-biology">
+<h2>General Computational Biology<a class="headerlink" href="#general-computational-biology" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://open.oregonstate.education/computationalbiology/front-matter/preface/">A primer for computational biology</a></p></li>
 </ul>
 </div>
 </div>
@@ -481,16 +515,36 @@
               </div>
               
         
-        <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="Online_resources.html" title="previous page">Online resources</a>
-    <a class='right-next' id="next-link" href="VSCode_ext.html" title="next page">Visual Studio Code Extensions</a>
 
-        </div>
+
+
+<div class='prev-next-bottom'>
+    
+    <div id="prev">
+        <a class="left-prev" href="Online_resources.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Online resources</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="VSCode_ext.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Visual Studio Code Extensions</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
+
+</div>
         
         </div>
     </div>
-    <footer class="footer mt-5 mt-md-0">
+    <footer class="footer">
     <div class="container">
       <p>
         

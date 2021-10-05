@@ -1,6 +1,6 @@
 # Visual Studio Code Extensions
 
-Visual Studio Code is a free open-source code editor that can be useful for tasks like working in markdown or Python. 
+Visual Studio Code is a free open-source code editor that can be useful for tasks like working in markdown or Python.
 It's easy to customise your workspace set up via extensions, so here is a list of great VS Code extensions:
 
 * [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets) - Highlights open and closing brackets in a rainbow of colours - great for finding that missing bracket in your code! 🌈

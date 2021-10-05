@@ -48,7 +48,7 @@ If you can be specific about what you don't understand, you are more likely to g
 This will depend on the question, but it can be helpful to include the data you're working on, a link to the data, or a smaller example data set.
 This allows people to test their solutions to your problem.
 
-## 6. Give details about the software you're using.
+## 6. Give details about the software you're using
 
 This isn't always applicable - *generally* we don't want to know the version of every package you're using in R.
 (But if someone asks, you can check by using ```sessionInfo()```)

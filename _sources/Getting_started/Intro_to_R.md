@@ -109,6 +109,7 @@ As you get more confident with Rmarkdown files you will find more and more ways 
     Includes an introduction to R, RStudio, data manipulation and plots.
     You can’t access their video chat but all materials and solutions are available.
 
+* [Beginning R](https://chryswoods.com/beginning_r/)
 * [R, Open Research, and Reproducibility](https://r-openresearch-reproducibility.netlify.app/)
 
     Great resources from masters courses by Andrew stewart at the University of Manchester on R, Open Research, and Reproducibility.
@@ -131,6 +132,16 @@ As you get more confident with Rmarkdown files you will find more and more ways 
 
     An introduction to R aimed at blind users. Includes information about the BrailleR package.
 
+* [What They Forgot to Teach You About R](https://rstats.wtf/index.html)
+* [RMarkdown Tips and Tricks](https://indrajeetpatil.github.io/RmarkdownTips/)
+* [Ella Kaye Talks](https://ellakaye.rbind.io/talks.html)
+
+    Slide decks from talks on various aspects of working in R.
+
+* [R-Ladies Global](https://www.youtube.com/channel/UCDgj5-mFohWZ5irWSFMFcng)
+
+    The R-Ladies Global youtube channel, with recordings from lots of great talks and tutorials.
+
 ## Online Textbooks
 
 * [Hands-On programming with R](https://rstudio-education.github.io/hopr/)
@@ -138,3 +149,7 @@ As you get more confident with Rmarkdown files you will find more and more ways 
 * [Computational Genomics with R](https://compgenomr.github.io/book/)
 * [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
 * [RMarkdown for Scientists](https://rmd4sci.njtierney.com/)
+* [The Big Book of R](https://www.bigbookofr.com/index.html)
+
+    An enormous collection of R-related programming books!
+    All the ones collected here and so many more.
