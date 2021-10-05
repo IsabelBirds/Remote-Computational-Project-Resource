@@ -24,9 +24,7 @@ Here are a few of them:
 
     A non-profit organisation campaigning for balance and representation of Black individuals in science, technology, engineering and maths (STEM).
 
-
 * [500 Women Scientists](https://500womenscientists.org/)
-
 
 * [The Turing Way](https://the-turing-way.netlify.app/welcome)
 
@@ -48,7 +46,7 @@ Here are a few of them:
 * [R-ladies](https://rladies.org/)
 
     A world-wide organisation to promote gender diversity in the R community.
-    
+
 * [BlindRUG](http://nfbnet.org/mailman/listinfo/blindrug_nfbnet.org)
 
     Blind R Users Group

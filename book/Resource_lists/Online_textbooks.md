@@ -1,6 +1,7 @@
 # Online textbooks
 
 Free online textbooks.
+
 ## R
 
 * [Hands-On programming with R](https://rstudio-education.github.io/hopr/)
@@ -19,7 +20,8 @@ Free online textbooks.
 
 ## Python
 
-* [Research Software Engineering with Python](https://merely-useful.tech/py-rse/)
+* [Research Software Engineering with Python](https://merely-useful.tech/py-rse)
+
 ## Data Visualisation
 
 * [Fundamentals of Data Visualisation](https://clauswilke.com/dataviz/) - A guide to effectively communicating your data using figures.
@@ -45,3 +47,6 @@ Free online textbooks.
 
 * [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg)
 
+## General Computational Biology
+
+* [A primer for computational biology](https://open.oregonstate.education/computationalbiology/front-matter/preface/)

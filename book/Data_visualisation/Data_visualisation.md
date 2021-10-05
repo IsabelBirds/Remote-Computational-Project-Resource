@@ -1,7 +1,8 @@
 # Data Visualisation
+
 ## When should I visualise my data?
 
-All of the time! 
+All of the time!
 At any point in a project, visualising your data and results is massively important!
 
 * At the start of a project, data visualisation helps you to understand your data, see trends and spot outliers.

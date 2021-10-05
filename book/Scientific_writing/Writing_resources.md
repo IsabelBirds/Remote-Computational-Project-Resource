@@ -1,6 +1,7 @@
 # Writing Resources
 
 Resources to help with scientific writing
+
 ## Writing Papers
 
 * [How to write an abstract](https://cbs.umn.edu/sites/cbs.umn.edu/files/public/downloads/Annotated_Nature_abstract.pdf) - from Nature
@@ -21,3 +22,7 @@ Resources to help with scientific writing
 * [Open Grants](https://www.ogrants.org/)
 
     Examples of grant proposals shared by researchers.
+
+## Communication
+
+* [Five rules for evidence communication](https://www.nature.com/articles/d41586-020-03189-1)
