@@ -1,6 +1,7 @@
 # Writing Resources
 
 Resources to help with scientific writing
+
 ## Writing Papers
 
 * [How to write an abstract](https://cbs.umn.edu/sites/cbs.umn.edu/files/public/downloads/Annotated_Nature_abstract.pdf) - from Nature
@@ -9,6 +10,7 @@ Resources to help with scientific writing
 * [Writing a scientific paper, step by painful step](http://trophiccascades.forestry.oregonstate.edu/sites/trophic/files/Lafferty_WritingScientificPaper.pdf)
 * [Whitesides' Group: Writing a Paper](https://intra.ece.ucr.edu/~rlake/Whitesides_writing_res_paper.pdf)
 * [Connected Papers](https://www.connectedpapers.com/) - a tool to explore connected research.
+* [Don’t perish! A step by step guide to writing a scientific paper](https://t.co/zt1lT1cXfM?amp=1)
 
 ## Writing up computational analyses
 
@@ -20,3 +22,7 @@ Resources to help with scientific writing
 * [Open Grants](https://www.ogrants.org/)
 
     Examples of grant proposals shared by researchers.
+
+## Communication
+
+* [Five rules for evidence communication](https://www.nature.com/articles/d41586-020-03189-1)

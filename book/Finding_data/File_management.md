@@ -13,3 +13,12 @@
     A slide deck on reproducible science and managing your data accordingly.
 
 * [Data Management Case Studies](https://guides.library.upenn.edu/c.php?g=1117669&p=8150225 )
+* [Lab Notebook Guidelines](https://ewallace.github.io/manual/lab-notebook)
+
+    Why lab notebooks are important and what you should include in them, from the Wallace Lab.
+
+* [Good enough practices in scientific computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
+
+* [Data Hazards](https://very-good-science.github.io/data-hazards/index.html)
+
+    A project about worst-case scenarios of Data Science.
